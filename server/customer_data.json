@@ -1,0 +1,7002 @@
+[
+    {
+        "customer_name": "Peyton Smith",
+        "popularity": 2,
+        "condition": 10,
+        "price": 17.1,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Alex Brown",
+        "popularity": 1,
+        "condition": 7,
+        "price": 24.38,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Rodriguez",
+        "popularity": 2,
+        "condition": 2,
+        "price": 25.72,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Peyton Martinez",
+        "popularity": 2,
+        "condition": 5,
+        "price": 30.18,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jamie Jones",
+        "popularity": 2,
+        "condition": 8,
+        "price": 6.23,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Miller",
+        "popularity": 1,
+        "condition": 3,
+        "price": 17.2,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Davis",
+        "popularity": 2,
+        "condition": 10,
+        "price": 7.36,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Casey Johnson",
+        "popularity": 4,
+        "condition": 8,
+        "price": 15.43,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Casey Williams",
+        "popularity": 1,
+        "condition": 1,
+        "price": 16.49,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Avery Smith",
+        "popularity": 2,
+        "condition": 7,
+        "price": 15.84,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Taylor Jones",
+        "popularity": 4,
+        "condition": 5,
+        "price": 22.83,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Williams",
+        "popularity": 5,
+        "condition": 3,
+        "price": 15.74,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Riley Miller",
+        "popularity": 1,
+        "condition": 5,
+        "price": 7.2,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Rodriguez",
+        "popularity": 3,
+        "condition": 10,
+        "price": 7.97,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jordan Martinez",
+        "popularity": 5,
+        "condition": 2,
+        "price": 24.86,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Smith",
+        "popularity": 5,
+        "condition": 2,
+        "price": 13.79,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Quinn Johnson",
+        "popularity": 4,
+        "condition": 4,
+        "price": 23.93,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jordan Miller",
+        "popularity": 5,
+        "condition": 9,
+        "price": 16.45,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Alex Jones",
+        "popularity": 4,
+        "condition": 3,
+        "price": 22.77,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jamie Martinez",
+        "popularity": 2,
+        "condition": 4,
+        "price": 15.6,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Casey Miller",
+        "popularity": 5,
+        "condition": 5,
+        "price": 28.07,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Peyton Garcia",
+        "popularity": 4,
+        "condition": 1,
+        "price": 16.15,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Davis",
+        "popularity": 1,
+        "condition": 10,
+        "price": 30.15,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Morgan Martinez",
+        "popularity": 2,
+        "condition": 4,
+        "price": 4.58,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Peyton Jones",
+        "popularity": 5,
+        "condition": 6,
+        "price": 22.89,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Rodriguez",
+        "popularity": 1,
+        "condition": 8,
+        "price": 5.21,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Avery Davis",
+        "popularity": 4,
+        "condition": 4,
+        "price": 4.97,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Alex Garcia",
+        "popularity": 4,
+        "condition": 2,
+        "price": 17.28,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Avery Davis",
+        "popularity": 1,
+        "condition": 6,
+        "price": 10.19,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Alex Williams",
+        "popularity": 5,
+        "condition": 3,
+        "price": 4.57,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Morgan Smith",
+        "popularity": 4,
+        "condition": 10,
+        "price": 11.72,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Quinn Davis",
+        "popularity": 2,
+        "condition": 4,
+        "price": 13.05,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Avery Smith",
+        "popularity": 1,
+        "condition": 8,
+        "price": 24.87,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Brown",
+        "popularity": 5,
+        "condition": 3,
+        "price": 12.24,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Casey Jones",
+        "popularity": 2,
+        "condition": 5,
+        "price": 21.44,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Garcia",
+        "popularity": 2,
+        "condition": 2,
+        "price": 15.16,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jamie Rodriguez",
+        "popularity": 5,
+        "condition": 4,
+        "price": 19.08,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Peyton Williams",
+        "popularity": 2,
+        "condition": 7,
+        "price": 7.14,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Williams",
+        "popularity": 3,
+        "condition": 4,
+        "price": 24.22,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Alex Johnson",
+        "popularity": 5,
+        "condition": 4,
+        "price": 25.49,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Morgan Johnson",
+        "popularity": 1,
+        "condition": 6,
+        "price": 27.3,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Miller",
+        "popularity": 4,
+        "condition": 6,
+        "price": 30.39,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jamie Williams",
+        "popularity": 1,
+        "condition": 3,
+        "price": 26.03,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Jones",
+        "popularity": 3,
+        "condition": 9,
+        "price": 30.09,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Williams",
+        "popularity": 4,
+        "condition": 10,
+        "price": 18.84,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Casey Rodriguez",
+        "popularity": 2,
+        "condition": 8,
+        "price": 25.12,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Morgan Martinez",
+        "popularity": 2,
+        "condition": 6,
+        "price": 10.55,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jordan Garcia",
+        "popularity": 4,
+        "condition": 2,
+        "price": 14.71,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Miller",
+        "popularity": 5,
+        "condition": 6,
+        "price": 18.55,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Quinn Rodriguez",
+        "popularity": 4,
+        "condition": 5,
+        "price": 7.73,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Avery Garcia",
+        "popularity": 1,
+        "condition": 8,
+        "price": 15.78,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Peyton Johnson",
+        "popularity": 4,
+        "condition": 9,
+        "price": 30.43,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Avery Martinez",
+        "popularity": 1,
+        "condition": 10,
+        "price": 23.24,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Avery Martinez",
+        "popularity": 3,
+        "condition": 8,
+        "price": 14.38,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jordan Miller",
+        "popularity": 5,
+        "condition": 7,
+        "price": 18.71,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Quinn Williams",
+        "popularity": 3,
+        "condition": 6,
+        "price": 27.51,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jordan Martinez",
+        "popularity": 4,
+        "condition": 9,
+        "price": 22.72,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Casey Rodriguez",
+        "popularity": 2,
+        "condition": 7,
+        "price": 8.62,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Casey Jones",
+        "popularity": 5,
+        "condition": 10,
+        "price": 16.37,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Williams",
+        "popularity": 4,
+        "condition": 3,
+        "price": 21.11,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Avery Davis",
+        "popularity": 1,
+        "condition": 8,
+        "price": 25.45,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Peyton Martinez",
+        "popularity": 5,
+        "condition": 1,
+        "price": 28.35,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jordan Martinez",
+        "popularity": 2,
+        "condition": 3,
+        "price": 10.15,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jordan Williams",
+        "popularity": 2,
+        "condition": 3,
+        "price": 11.5,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Alex Williams",
+        "popularity": 1,
+        "condition": 1,
+        "price": 23.58,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Brown",
+        "popularity": 3,
+        "condition": 3,
+        "price": 11.91,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Avery Martinez",
+        "popularity": 3,
+        "condition": 3,
+        "price": 27.58,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Peyton Garcia",
+        "popularity": 5,
+        "condition": 10,
+        "price": 23.8,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Riley Johnson",
+        "popularity": 1,
+        "condition": 3,
+        "price": 21.16,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Smith",
+        "popularity": 5,
+        "condition": 7,
+        "price": 24.77,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Alex Davis",
+        "popularity": 1,
+        "condition": 1,
+        "price": 15.78,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Riley Rodriguez",
+        "popularity": 1,
+        "condition": 9,
+        "price": 28.39,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Peyton Williams",
+        "popularity": 2,
+        "condition": 10,
+        "price": 8.43,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Davis",
+        "popularity": 2,
+        "condition": 5,
+        "price": 5.03,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Taylor Smith",
+        "popularity": 4,
+        "condition": 1,
+        "price": 25.76,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Peyton Miller",
+        "popularity": 1,
+        "condition": 10,
+        "price": 7.92,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Riley Smith",
+        "popularity": 4,
+        "condition": 8,
+        "price": 20.59,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Casey Smith",
+        "popularity": 3,
+        "condition": 10,
+        "price": 21.95,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Avery Brown",
+        "popularity": 2,
+        "condition": 3,
+        "price": 20.63,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Williams",
+        "popularity": 5,
+        "condition": 4,
+        "price": 7.96,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Johnson",
+        "popularity": 5,
+        "condition": 7,
+        "price": 27.59,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jordan Williams",
+        "popularity": 3,
+        "condition": 5,
+        "price": 12.96,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Casey Davis",
+        "popularity": 2,
+        "condition": 7,
+        "price": 10.68,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Taylor Rodriguez",
+        "popularity": 1,
+        "condition": 10,
+        "price": 5.05,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Morgan Smith",
+        "popularity": 5,
+        "condition": 2,
+        "price": 13.46,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Jones",
+        "popularity": 1,
+        "condition": 6,
+        "price": 10.25,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Morgan Johnson",
+        "popularity": 2,
+        "condition": 4,
+        "price": 16.78,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Peyton Miller",
+        "popularity": 1,
+        "condition": 7,
+        "price": 19.05,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Avery Williams",
+        "popularity": 4,
+        "condition": 5,
+        "price": 4.79,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Casey Garcia",
+        "popularity": 2,
+        "condition": 2,
+        "price": 23.65,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jamie Martinez",
+        "popularity": 4,
+        "condition": 9,
+        "price": 16.52,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Alex Martinez",
+        "popularity": 3,
+        "condition": 3,
+        "price": 28.94,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jamie Martinez",
+        "popularity": 5,
+        "condition": 2,
+        "price": 29.44,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jamie Williams",
+        "popularity": 3,
+        "condition": 6,
+        "price": 28.21,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Jones",
+        "popularity": 4,
+        "condition": 2,
+        "price": 30.73,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Peyton Davis",
+        "popularity": 4,
+        "condition": 4,
+        "price": 13.83,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jordan Smith",
+        "popularity": 3,
+        "condition": 6,
+        "price": 12.29,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Peyton Martinez",
+        "popularity": 4,
+        "condition": 4,
+        "price": 27.87,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Taylor Jones",
+        "popularity": 5,
+        "condition": 10,
+        "price": 20.51,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jordan Brown",
+        "popularity": 3,
+        "condition": 1,
+        "price": 20.37,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Morgan Brown",
+        "popularity": 2,
+        "condition": 2,
+        "price": 21.19,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Garcia",
+        "popularity": 2,
+        "condition": 8,
+        "price": 10.73,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Jones",
+        "popularity": 1,
+        "condition": 5,
+        "price": 16.21,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Avery Smith",
+        "popularity": 4,
+        "condition": 4,
+        "price": 28.69,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Morgan Williams",
+        "popularity": 3,
+        "condition": 5,
+        "price": 24.34,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Riley Martinez",
+        "popularity": 3,
+        "condition": 7,
+        "price": 30.1,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jordan Davis",
+        "popularity": 4,
+        "condition": 7,
+        "price": 29.9,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Martinez",
+        "popularity": 1,
+        "condition": 3,
+        "price": 28.37,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jordan Miller",
+        "popularity": 3,
+        "condition": 8,
+        "price": 27.28,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Avery Martinez",
+        "popularity": 1,
+        "condition": 3,
+        "price": 22.43,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Avery Brown",
+        "popularity": 3,
+        "condition": 5,
+        "price": 4.54,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jamie Davis",
+        "popularity": 1,
+        "condition": 8,
+        "price": 14.58,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Peyton Martinez",
+        "popularity": 5,
+        "condition": 5,
+        "price": 10.81,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jordan Brown",
+        "popularity": 4,
+        "condition": 4,
+        "price": 5.99,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Morgan Brown",
+        "popularity": 1,
+        "condition": 7,
+        "price": 22.14,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Quinn Rodriguez",
+        "popularity": 1,
+        "condition": 5,
+        "price": 27.21,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jordan Miller",
+        "popularity": 1,
+        "condition": 9,
+        "price": 4.62,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Avery Garcia",
+        "popularity": 4,
+        "condition": 6,
+        "price": 15.73,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jamie Jones",
+        "popularity": 4,
+        "condition": 1,
+        "price": 17.18,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Morgan Smith",
+        "popularity": 2,
+        "condition": 10,
+        "price": 29.02,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Martinez",
+        "popularity": 3,
+        "condition": 5,
+        "price": 6.04,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Riley Davis",
+        "popularity": 3,
+        "condition": 1,
+        "price": 5.29,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Brown",
+        "popularity": 5,
+        "condition": 6,
+        "price": 26.98,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jordan Brown",
+        "popularity": 3,
+        "condition": 9,
+        "price": 4.15,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jordan Davis",
+        "popularity": 4,
+        "condition": 10,
+        "price": 28.3,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Alex Martinez",
+        "popularity": 4,
+        "condition": 9,
+        "price": 16.23,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jamie Williams",
+        "popularity": 3,
+        "condition": 3,
+        "price": 15.77,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Riley Miller",
+        "popularity": 4,
+        "condition": 2,
+        "price": 16.58,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Quinn Miller",
+        "popularity": 4,
+        "condition": 6,
+        "price": 20.41,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Riley Williams",
+        "popularity": 1,
+        "condition": 1,
+        "price": 27.69,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Alex Jones",
+        "popularity": 4,
+        "condition": 3,
+        "price": 7.23,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Riley Garcia",
+        "popularity": 1,
+        "condition": 5,
+        "price": 4.54,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Jones",
+        "popularity": 3,
+        "condition": 3,
+        "price": 22.07,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Riley Brown",
+        "popularity": 4,
+        "condition": 9,
+        "price": 26.44,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jordan Martinez",
+        "popularity": 4,
+        "condition": 2,
+        "price": 6.1,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Taylor Miller",
+        "popularity": 5,
+        "condition": 8,
+        "price": 8.42,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Avery Miller",
+        "popularity": 2,
+        "condition": 10,
+        "price": 27.91,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Morgan Smith",
+        "popularity": 3,
+        "condition": 4,
+        "price": 29.36,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Morgan Smith",
+        "popularity": 1,
+        "condition": 2,
+        "price": 22.59,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Casey Smith",
+        "popularity": 4,
+        "condition": 5,
+        "price": 4.73,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Avery Brown",
+        "popularity": 2,
+        "condition": 4,
+        "price": 26.36,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Alex Martinez",
+        "popularity": 1,
+        "condition": 2,
+        "price": 30.72,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Avery Garcia",
+        "popularity": 2,
+        "condition": 8,
+        "price": 9.89,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Davis",
+        "popularity": 5,
+        "condition": 8,
+        "price": 15.8,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Taylor Smith",
+        "popularity": 4,
+        "condition": 7,
+        "price": 23.16,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Avery Williams",
+        "popularity": 3,
+        "condition": 8,
+        "price": 19.12,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Peyton Davis",
+        "popularity": 3,
+        "condition": 5,
+        "price": 26.98,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Avery Williams",
+        "popularity": 5,
+        "condition": 4,
+        "price": 15.87,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Quinn Johnson",
+        "popularity": 1,
+        "condition": 6,
+        "price": 16.51,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jordan Smith",
+        "popularity": 5,
+        "condition": 6,
+        "price": 4.96,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Quinn Garcia",
+        "popularity": 4,
+        "condition": 3,
+        "price": 7.06,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Peyton Martinez",
+        "popularity": 4,
+        "condition": 2,
+        "price": 26.94,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Casey Jones",
+        "popularity": 1,
+        "condition": 3,
+        "price": 17.65,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Avery Davis",
+        "popularity": 2,
+        "condition": 8,
+        "price": 17.08,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jamie Davis",
+        "popularity": 2,
+        "condition": 5,
+        "price": 18.71,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Riley Rodriguez",
+        "popularity": 4,
+        "condition": 4,
+        "price": 14.01,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jordan Johnson",
+        "popularity": 4,
+        "condition": 1,
+        "price": 20.29,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jordan Jones",
+        "popularity": 3,
+        "condition": 5,
+        "price": 27.67,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jamie Johnson",
+        "popularity": 3,
+        "condition": 3,
+        "price": 22.33,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Jones",
+        "popularity": 4,
+        "condition": 9,
+        "price": 19.85,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Brown",
+        "popularity": 4,
+        "condition": 6,
+        "price": 22.05,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Davis",
+        "popularity": 1,
+        "condition": 1,
+        "price": 18.52,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Taylor Jones",
+        "popularity": 2,
+        "condition": 7,
+        "price": 23.43,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Rodriguez",
+        "popularity": 4,
+        "condition": 9,
+        "price": 17.45,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Garcia",
+        "popularity": 5,
+        "condition": 3,
+        "price": 10.46,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Quinn Davis",
+        "popularity": 4,
+        "condition": 5,
+        "price": 5.47,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Davis",
+        "popularity": 2,
+        "condition": 8,
+        "price": 12.38,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Peyton Smith",
+        "popularity": 1,
+        "condition": 3,
+        "price": 4.09,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Smith",
+        "popularity": 1,
+        "condition": 9,
+        "price": 14.13,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Garcia",
+        "popularity": 3,
+        "condition": 5,
+        "price": 24.42,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Peyton Williams",
+        "popularity": 3,
+        "condition": 1,
+        "price": 13.74,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Quinn Williams",
+        "popularity": 5,
+        "condition": 3,
+        "price": 13.89,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Rodriguez",
+        "popularity": 1,
+        "condition": 6,
+        "price": 17.54,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Peyton Williams",
+        "popularity": 5,
+        "condition": 2,
+        "price": 14.48,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Casey Garcia",
+        "popularity": 2,
+        "condition": 8,
+        "price": 29.99,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Martinez",
+        "popularity": 5,
+        "condition": 3,
+        "price": 8.03,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Johnson",
+        "popularity": 3,
+        "condition": 6,
+        "price": 8.12,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Taylor Johnson",
+        "popularity": 5,
+        "condition": 1,
+        "price": 30.89,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jamie Williams",
+        "popularity": 1,
+        "condition": 1,
+        "price": 20.03,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Casey Davis",
+        "popularity": 1,
+        "condition": 2,
+        "price": 26.19,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Avery Brown",
+        "popularity": 3,
+        "condition": 2,
+        "price": 8.27,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Morgan Smith",
+        "popularity": 2,
+        "condition": 5,
+        "price": 26.86,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Casey Garcia",
+        "popularity": 4,
+        "condition": 3,
+        "price": 8.86,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Alex Garcia",
+        "popularity": 5,
+        "condition": 5,
+        "price": 20.06,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Casey Williams",
+        "popularity": 5,
+        "condition": 7,
+        "price": 29.11,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Taylor Brown",
+        "popularity": 4,
+        "condition": 4,
+        "price": 18.27,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Miller",
+        "popularity": 5,
+        "condition": 2,
+        "price": 13.51,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Miller",
+        "popularity": 3,
+        "condition": 4,
+        "price": 8.31,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Alex Davis",
+        "popularity": 1,
+        "condition": 1,
+        "price": 5.77,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jamie Martinez",
+        "popularity": 1,
+        "condition": 3,
+        "price": 5.08,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Taylor Johnson",
+        "popularity": 2,
+        "condition": 2,
+        "price": 11.71,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jamie Davis",
+        "popularity": 5,
+        "condition": 5,
+        "price": 28.4,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Quinn Jones",
+        "popularity": 5,
+        "condition": 4,
+        "price": 30.71,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jamie Williams",
+        "popularity": 5,
+        "condition": 5,
+        "price": 14.84,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Casey Martinez",
+        "popularity": 5,
+        "condition": 7,
+        "price": 11.75,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Casey Garcia",
+        "popularity": 5,
+        "condition": 5,
+        "price": 13.01,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Peyton Brown",
+        "popularity": 2,
+        "condition": 8,
+        "price": 14.52,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Morgan Rodriguez",
+        "popularity": 1,
+        "condition": 8,
+        "price": 26.24,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Casey Smith",
+        "popularity": 2,
+        "condition": 4,
+        "price": 20.04,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Morgan Smith",
+        "popularity": 4,
+        "condition": 1,
+        "price": 16.04,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Jones",
+        "popularity": 3,
+        "condition": 2,
+        "price": 28.43,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Avery Rodriguez",
+        "popularity": 3,
+        "condition": 8,
+        "price": 15.78,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Riley Jones",
+        "popularity": 3,
+        "condition": 8,
+        "price": 26.38,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Morgan Garcia",
+        "popularity": 5,
+        "condition": 8,
+        "price": 17.26,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Brown",
+        "popularity": 3,
+        "condition": 7,
+        "price": 23.0,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Casey Johnson",
+        "popularity": 3,
+        "condition": 3,
+        "price": 9.28,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Peyton Williams",
+        "popularity": 1,
+        "condition": 6,
+        "price": 5.46,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Riley Davis",
+        "popularity": 4,
+        "condition": 10,
+        "price": 18.68,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Peyton Williams",
+        "popularity": 3,
+        "condition": 4,
+        "price": 22.88,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Alex Rodriguez",
+        "popularity": 1,
+        "condition": 10,
+        "price": 19.36,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jordan Williams",
+        "popularity": 4,
+        "condition": 5,
+        "price": 27.94,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jordan Rodriguez",
+        "popularity": 1,
+        "condition": 5,
+        "price": 13.06,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Avery Williams",
+        "popularity": 3,
+        "condition": 5,
+        "price": 9.07,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Davis",
+        "popularity": 2,
+        "condition": 7,
+        "price": 28.04,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Riley Brown",
+        "popularity": 4,
+        "condition": 3,
+        "price": 22.96,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Taylor Rodriguez",
+        "popularity": 3,
+        "condition": 6,
+        "price": 6.39,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Riley Miller",
+        "popularity": 2,
+        "condition": 8,
+        "price": 26.11,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jordan Brown",
+        "popularity": 5,
+        "condition": 3,
+        "price": 25.98,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Riley Johnson",
+        "popularity": 3,
+        "condition": 7,
+        "price": 6.65,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Casey Garcia",
+        "popularity": 2,
+        "condition": 3,
+        "price": 28.08,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Riley Smith",
+        "popularity": 4,
+        "condition": 10,
+        "price": 25.43,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Martinez",
+        "popularity": 5,
+        "condition": 6,
+        "price": 30.74,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Taylor Jones",
+        "popularity": 4,
+        "condition": 8,
+        "price": 8.59,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jordan Davis",
+        "popularity": 5,
+        "condition": 1,
+        "price": 19.91,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Smith",
+        "popularity": 5,
+        "condition": 6,
+        "price": 14.97,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Smith",
+        "popularity": 5,
+        "condition": 9,
+        "price": 25.39,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Alex Garcia",
+        "popularity": 3,
+        "condition": 3,
+        "price": 13.46,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jordan Miller",
+        "popularity": 5,
+        "condition": 5,
+        "price": 11.77,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Morgan Martinez",
+        "popularity": 2,
+        "condition": 6,
+        "price": 21.69,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Peyton Johnson",
+        "popularity": 1,
+        "condition": 5,
+        "price": 19.39,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Morgan Williams",
+        "popularity": 5,
+        "condition": 1,
+        "price": 15.34,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Morgan Davis",
+        "popularity": 4,
+        "condition": 3,
+        "price": 22.29,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Riley Miller",
+        "popularity": 1,
+        "condition": 6,
+        "price": 6.72,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Riley Brown",
+        "popularity": 2,
+        "condition": 4,
+        "price": 5.98,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Rodriguez",
+        "popularity": 2,
+        "condition": 9,
+        "price": 27.66,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Smith",
+        "popularity": 2,
+        "condition": 4,
+        "price": 9.53,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Morgan Miller",
+        "popularity": 5,
+        "condition": 1,
+        "price": 5.87,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Taylor Jones",
+        "popularity": 4,
+        "condition": 7,
+        "price": 25.24,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Smith",
+        "popularity": 3,
+        "condition": 6,
+        "price": 10.71,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Smith",
+        "popularity": 2,
+        "condition": 3,
+        "price": 13.73,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Johnson",
+        "popularity": 4,
+        "condition": 8,
+        "price": 4.23,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Taylor Davis",
+        "popularity": 3,
+        "condition": 6,
+        "price": 17.77,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Taylor Williams",
+        "popularity": 4,
+        "condition": 5,
+        "price": 4.27,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Casey Davis",
+        "popularity": 1,
+        "condition": 5,
+        "price": 22.93,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Morgan Johnson",
+        "popularity": 3,
+        "condition": 6,
+        "price": 10.16,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Morgan Jones",
+        "popularity": 3,
+        "condition": 7,
+        "price": 15.21,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Jones",
+        "popularity": 5,
+        "condition": 8,
+        "price": 10.67,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Rodriguez",
+        "popularity": 3,
+        "condition": 1,
+        "price": 26.76,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Quinn Smith",
+        "popularity": 4,
+        "condition": 4,
+        "price": 16.43,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Taylor Johnson",
+        "popularity": 4,
+        "condition": 7,
+        "price": 23.3,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jordan Brown",
+        "popularity": 5,
+        "condition": 10,
+        "price": 23.54,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Casey Davis",
+        "popularity": 2,
+        "condition": 5,
+        "price": 5.13,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jordan Rodriguez",
+        "popularity": 3,
+        "condition": 9,
+        "price": 30.41,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Quinn Jones",
+        "popularity": 4,
+        "condition": 3,
+        "price": 27.12,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Alex Brown",
+        "popularity": 3,
+        "condition": 7,
+        "price": 18.26,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Alex Williams",
+        "popularity": 4,
+        "condition": 5,
+        "price": 12.16,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Williams",
+        "popularity": 4,
+        "condition": 2,
+        "price": 22.63,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Alex Jones",
+        "popularity": 2,
+        "condition": 9,
+        "price": 11.74,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Riley Miller",
+        "popularity": 1,
+        "condition": 5,
+        "price": 25.62,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Martinez",
+        "popularity": 1,
+        "condition": 2,
+        "price": 13.51,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jamie Johnson",
+        "popularity": 5,
+        "condition": 4,
+        "price": 15.47,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jamie Johnson",
+        "popularity": 1,
+        "condition": 2,
+        "price": 7.46,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Miller",
+        "popularity": 3,
+        "condition": 5,
+        "price": 30.39,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Martinez",
+        "popularity": 2,
+        "condition": 10,
+        "price": 4.2,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Avery Martinez",
+        "popularity": 5,
+        "condition": 1,
+        "price": 5.74,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Casey Rodriguez",
+        "popularity": 1,
+        "condition": 4,
+        "price": 10.06,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Martinez",
+        "popularity": 1,
+        "condition": 6,
+        "price": 25.88,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Taylor Martinez",
+        "popularity": 4,
+        "condition": 7,
+        "price": 27.6,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Johnson",
+        "popularity": 5,
+        "condition": 7,
+        "price": 12.66,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Alex Jones",
+        "popularity": 3,
+        "condition": 1,
+        "price": 22.72,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Taylor Rodriguez",
+        "popularity": 4,
+        "condition": 10,
+        "price": 15.0,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Riley Johnson",
+        "popularity": 5,
+        "condition": 3,
+        "price": 21.4,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Casey Davis",
+        "popularity": 2,
+        "condition": 3,
+        "price": 15.14,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Morgan Rodriguez",
+        "popularity": 5,
+        "condition": 3,
+        "price": 18.31,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Alex Johnson",
+        "popularity": 5,
+        "condition": 7,
+        "price": 20.33,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jordan Garcia",
+        "popularity": 1,
+        "condition": 6,
+        "price": 20.87,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Avery Brown",
+        "popularity": 3,
+        "condition": 3,
+        "price": 4.18,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jamie Martinez",
+        "popularity": 4,
+        "condition": 2,
+        "price": 19.38,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Morgan Davis",
+        "popularity": 2,
+        "condition": 4,
+        "price": 10.87,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Williams",
+        "popularity": 5,
+        "condition": 10,
+        "price": 25.05,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Avery Brown",
+        "popularity": 3,
+        "condition": 10,
+        "price": 8.7,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jamie Rodriguez",
+        "popularity": 3,
+        "condition": 4,
+        "price": 12.74,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Casey Jones",
+        "popularity": 3,
+        "condition": 1,
+        "price": 19.88,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Martinez",
+        "popularity": 4,
+        "condition": 4,
+        "price": 8.1,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Taylor Davis",
+        "popularity": 2,
+        "condition": 8,
+        "price": 19.45,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Casey Martinez",
+        "popularity": 2,
+        "condition": 1,
+        "price": 20.22,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jamie Smith",
+        "popularity": 5,
+        "condition": 7,
+        "price": 7.99,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Peyton Williams",
+        "popularity": 3,
+        "condition": 10,
+        "price": 23.58,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Morgan Rodriguez",
+        "popularity": 5,
+        "condition": 6,
+        "price": 18.1,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Miller",
+        "popularity": 4,
+        "condition": 4,
+        "price": 23.86,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Peyton Smith",
+        "popularity": 1,
+        "condition": 6,
+        "price": 25.39,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Smith",
+        "popularity": 5,
+        "condition": 10,
+        "price": 7.07,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Quinn Brown",
+        "popularity": 3,
+        "condition": 5,
+        "price": 14.0,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Morgan Garcia",
+        "popularity": 1,
+        "condition": 4,
+        "price": 18.39,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Garcia",
+        "popularity": 3,
+        "condition": 9,
+        "price": 11.17,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jamie Jones",
+        "popularity": 4,
+        "condition": 8,
+        "price": 11.94,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Casey Smith",
+        "popularity": 4,
+        "condition": 7,
+        "price": 30.6,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Garcia",
+        "popularity": 2,
+        "condition": 7,
+        "price": 13.64,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Alex Martinez",
+        "popularity": 1,
+        "condition": 7,
+        "price": 27.69,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jamie Rodriguez",
+        "popularity": 2,
+        "condition": 2,
+        "price": 30.45,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Quinn Williams",
+        "popularity": 3,
+        "condition": 4,
+        "price": 22.73,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Peyton Rodriguez",
+        "popularity": 5,
+        "condition": 5,
+        "price": 5.36,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jamie Brown",
+        "popularity": 5,
+        "condition": 6,
+        "price": 27.84,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Riley Brown",
+        "popularity": 3,
+        "condition": 5,
+        "price": 12.84,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Quinn Rodriguez",
+        "popularity": 2,
+        "condition": 9,
+        "price": 11.52,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Alex Davis",
+        "popularity": 3,
+        "condition": 5,
+        "price": 18.94,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Avery Williams",
+        "popularity": 3,
+        "condition": 6,
+        "price": 25.1,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Taylor Williams",
+        "popularity": 1,
+        "condition": 7,
+        "price": 21.36,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jamie Johnson",
+        "popularity": 2,
+        "condition": 6,
+        "price": 17.28,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Avery Smith",
+        "popularity": 1,
+        "condition": 1,
+        "price": 8.61,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Taylor Brown",
+        "popularity": 3,
+        "condition": 9,
+        "price": 15.62,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jamie Smith",
+        "popularity": 4,
+        "condition": 7,
+        "price": 27.29,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jamie Williams",
+        "popularity": 3,
+        "condition": 1,
+        "price": 19.2,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jamie Miller",
+        "popularity": 1,
+        "condition": 8,
+        "price": 21.21,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Jones",
+        "popularity": 3,
+        "condition": 9,
+        "price": 19.32,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jordan Martinez",
+        "popularity": 3,
+        "condition": 3,
+        "price": 27.41,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Alex Williams",
+        "popularity": 4,
+        "condition": 6,
+        "price": 4.23,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jamie Jones",
+        "popularity": 4,
+        "condition": 5,
+        "price": 12.8,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Johnson",
+        "popularity": 1,
+        "condition": 8,
+        "price": 14.52,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Riley Jones",
+        "popularity": 2,
+        "condition": 4,
+        "price": 18.3,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Peyton Brown",
+        "popularity": 4,
+        "condition": 2,
+        "price": 15.7,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jamie Jones",
+        "popularity": 5,
+        "condition": 2,
+        "price": 11.27,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Peyton Rodriguez",
+        "popularity": 1,
+        "condition": 5,
+        "price": 4.37,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Miller",
+        "popularity": 2,
+        "condition": 7,
+        "price": 14.56,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Casey Davis",
+        "popularity": 2,
+        "condition": 5,
+        "price": 13.45,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Riley Garcia",
+        "popularity": 2,
+        "condition": 2,
+        "price": 9.71,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Martinez",
+        "popularity": 3,
+        "condition": 5,
+        "price": 23.47,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jamie Miller",
+        "popularity": 1,
+        "condition": 5,
+        "price": 20.62,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Peyton Williams",
+        "popularity": 2,
+        "condition": 5,
+        "price": 10.88,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Morgan Garcia",
+        "popularity": 2,
+        "condition": 7,
+        "price": 21.58,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Taylor Williams",
+        "popularity": 5,
+        "condition": 7,
+        "price": 9.51,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Avery Garcia",
+        "popularity": 5,
+        "condition": 7,
+        "price": 12.62,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Riley Jones",
+        "popularity": 5,
+        "condition": 8,
+        "price": 22.78,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Garcia",
+        "popularity": 2,
+        "condition": 10,
+        "price": 6.23,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jamie Davis",
+        "popularity": 1,
+        "condition": 6,
+        "price": 7.92,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Riley Williams",
+        "popularity": 2,
+        "condition": 5,
+        "price": 10.29,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Peyton Smith",
+        "popularity": 4,
+        "condition": 1,
+        "price": 17.49,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Casey Martinez",
+        "popularity": 2,
+        "condition": 5,
+        "price": 22.13,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Avery Garcia",
+        "popularity": 5,
+        "condition": 9,
+        "price": 6.12,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Avery Miller",
+        "popularity": 1,
+        "condition": 10,
+        "price": 15.72,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Casey Jones",
+        "popularity": 5,
+        "condition": 3,
+        "price": 22.67,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jamie Brown",
+        "popularity": 1,
+        "condition": 4,
+        "price": 16.49,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jamie Smith",
+        "popularity": 2,
+        "condition": 9,
+        "price": 19.06,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Morgan Brown",
+        "popularity": 4,
+        "condition": 2,
+        "price": 27.64,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Morgan Davis",
+        "popularity": 3,
+        "condition": 5,
+        "price": 15.82,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Taylor Williams",
+        "popularity": 3,
+        "condition": 6,
+        "price": 5.19,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Taylor Johnson",
+        "popularity": 1,
+        "condition": 10,
+        "price": 10.24,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Casey Garcia",
+        "popularity": 2,
+        "condition": 3,
+        "price": 6.82,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Smith",
+        "popularity": 4,
+        "condition": 8,
+        "price": 19.18,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Avery Garcia",
+        "popularity": 2,
+        "condition": 8,
+        "price": 15.73,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Avery Martinez",
+        "popularity": 3,
+        "condition": 9,
+        "price": 18.65,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Quinn Martinez",
+        "popularity": 4,
+        "condition": 8,
+        "price": 20.79,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Alex Brown",
+        "popularity": 4,
+        "condition": 1,
+        "price": 24.53,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jordan Rodriguez",
+        "popularity": 1,
+        "condition": 2,
+        "price": 16.4,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jordan Garcia",
+        "popularity": 2,
+        "condition": 10,
+        "price": 29.94,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Morgan Martinez",
+        "popularity": 2,
+        "condition": 8,
+        "price": 10.86,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Riley Miller",
+        "popularity": 4,
+        "condition": 6,
+        "price": 10.24,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Smith",
+        "popularity": 1,
+        "condition": 4,
+        "price": 21.95,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Casey Miller",
+        "popularity": 5,
+        "condition": 10,
+        "price": 17.01,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jordan Martinez",
+        "popularity": 1,
+        "condition": 5,
+        "price": 8.39,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jordan Brown",
+        "popularity": 3,
+        "condition": 1,
+        "price": 24.42,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Avery Smith",
+        "popularity": 5,
+        "condition": 9,
+        "price": 10.91,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Riley Davis",
+        "popularity": 4,
+        "condition": 10,
+        "price": 4.81,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Avery Garcia",
+        "popularity": 4,
+        "condition": 3,
+        "price": 29.28,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Morgan Brown",
+        "popularity": 1,
+        "condition": 2,
+        "price": 20.7,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jordan Garcia",
+        "popularity": 4,
+        "condition": 5,
+        "price": 17.35,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Taylor Davis",
+        "popularity": 3,
+        "condition": 2,
+        "price": 30.18,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Quinn Johnson",
+        "popularity": 5,
+        "condition": 4,
+        "price": 26.72,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Taylor Martinez",
+        "popularity": 3,
+        "condition": 4,
+        "price": 16.43,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Peyton Rodriguez",
+        "popularity": 3,
+        "condition": 5,
+        "price": 15.29,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Smith",
+        "popularity": 3,
+        "condition": 3,
+        "price": 13.31,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Morgan Jones",
+        "popularity": 2,
+        "condition": 3,
+        "price": 22.54,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Quinn Davis",
+        "popularity": 2,
+        "condition": 8,
+        "price": 20.65,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Peyton Williams",
+        "popularity": 5,
+        "condition": 3,
+        "price": 25.82,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Rodriguez",
+        "popularity": 4,
+        "condition": 5,
+        "price": 24.73,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Davis",
+        "popularity": 2,
+        "condition": 3,
+        "price": 23.59,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jamie Smith",
+        "popularity": 5,
+        "condition": 7,
+        "price": 5.37,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Casey Jones",
+        "popularity": 3,
+        "condition": 3,
+        "price": 26.41,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Taylor Johnson",
+        "popularity": 4,
+        "condition": 5,
+        "price": 22.33,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Martinez",
+        "popularity": 2,
+        "condition": 5,
+        "price": 20.51,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Taylor Brown",
+        "popularity": 5,
+        "condition": 3,
+        "price": 27.19,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Williams",
+        "popularity": 1,
+        "condition": 1,
+        "price": 22.25,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Riley Williams",
+        "popularity": 3,
+        "condition": 1,
+        "price": 12.42,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Alex Martinez",
+        "popularity": 2,
+        "condition": 4,
+        "price": 5.67,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Taylor Davis",
+        "popularity": 3,
+        "condition": 9,
+        "price": 13.13,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Miller",
+        "popularity": 1,
+        "condition": 5,
+        "price": 25.6,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Avery Miller",
+        "popularity": 4,
+        "condition": 3,
+        "price": 8.03,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Morgan Smith",
+        "popularity": 5,
+        "condition": 10,
+        "price": 13.68,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Taylor Martinez",
+        "popularity": 4,
+        "condition": 1,
+        "price": 6.65,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Alex Brown",
+        "popularity": 2,
+        "condition": 1,
+        "price": 24.01,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Taylor Williams",
+        "popularity": 2,
+        "condition": 7,
+        "price": 15.69,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Peyton Martinez",
+        "popularity": 4,
+        "condition": 5,
+        "price": 19.38,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Avery Garcia",
+        "popularity": 2,
+        "condition": 8,
+        "price": 18.25,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Riley Smith",
+        "popularity": 5,
+        "condition": 1,
+        "price": 15.82,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Garcia",
+        "popularity": 5,
+        "condition": 3,
+        "price": 24.24,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Peyton Brown",
+        "popularity": 3,
+        "condition": 4,
+        "price": 22.05,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Morgan Williams",
+        "popularity": 5,
+        "condition": 3,
+        "price": 28.44,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Brown",
+        "popularity": 2,
+        "condition": 9,
+        "price": 26.16,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Morgan Johnson",
+        "popularity": 4,
+        "condition": 7,
+        "price": 24.65,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Alex Davis",
+        "popularity": 1,
+        "condition": 4,
+        "price": 17.78,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Alex Rodriguez",
+        "popularity": 2,
+        "condition": 5,
+        "price": 17.24,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Quinn Martinez",
+        "popularity": 1,
+        "condition": 10,
+        "price": 12.42,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Alex Miller",
+        "popularity": 5,
+        "condition": 10,
+        "price": 4.77,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Casey Brown",
+        "popularity": 4,
+        "condition": 3,
+        "price": 8.65,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jordan Smith",
+        "popularity": 1,
+        "condition": 5,
+        "price": 5.23,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Quinn Johnson",
+        "popularity": 4,
+        "condition": 5,
+        "price": 4.39,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jordan Williams",
+        "popularity": 3,
+        "condition": 4,
+        "price": 18.29,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Taylor Smith",
+        "popularity": 5,
+        "condition": 3,
+        "price": 20.69,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Casey Williams",
+        "popularity": 2,
+        "condition": 8,
+        "price": 24.72,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Smith",
+        "popularity": 3,
+        "condition": 5,
+        "price": 24.59,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jamie Martinez",
+        "popularity": 5,
+        "condition": 2,
+        "price": 11.69,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Davis",
+        "popularity": 5,
+        "condition": 10,
+        "price": 28.75,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Riley Rodriguez",
+        "popularity": 3,
+        "condition": 1,
+        "price": 24.91,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Peyton Smith",
+        "popularity": 4,
+        "condition": 3,
+        "price": 22.92,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Avery Davis",
+        "popularity": 4,
+        "condition": 9,
+        "price": 5.51,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Taylor Miller",
+        "popularity": 1,
+        "condition": 3,
+        "price": 26.66,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Taylor Garcia",
+        "popularity": 1,
+        "condition": 5,
+        "price": 29.98,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Taylor Garcia",
+        "popularity": 2,
+        "condition": 5,
+        "price": 24.19,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Morgan Miller",
+        "popularity": 3,
+        "condition": 5,
+        "price": 15.0,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jordan Brown",
+        "popularity": 3,
+        "condition": 8,
+        "price": 26.81,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Quinn Miller",
+        "popularity": 5,
+        "condition": 5,
+        "price": 16.81,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Avery Williams",
+        "popularity": 4,
+        "condition": 7,
+        "price": 23.95,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Avery Miller",
+        "popularity": 4,
+        "condition": 8,
+        "price": 11.04,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Quinn Miller",
+        "popularity": 3,
+        "condition": 9,
+        "price": 9.0,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Avery Rodriguez",
+        "popularity": 3,
+        "condition": 7,
+        "price": 6.43,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Jones",
+        "popularity": 2,
+        "condition": 2,
+        "price": 6.95,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Garcia",
+        "popularity": 1,
+        "condition": 7,
+        "price": 29.38,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Johnson",
+        "popularity": 5,
+        "condition": 9,
+        "price": 19.94,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Taylor Garcia",
+        "popularity": 3,
+        "condition": 10,
+        "price": 12.24,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Riley Brown",
+        "popularity": 3,
+        "condition": 6,
+        "price": 9.09,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Casey Brown",
+        "popularity": 2,
+        "condition": 6,
+        "price": 27.85,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Morgan Miller",
+        "popularity": 3,
+        "condition": 6,
+        "price": 17.16,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jamie Jones",
+        "popularity": 4,
+        "condition": 5,
+        "price": 20.7,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Morgan Williams",
+        "popularity": 4,
+        "condition": 2,
+        "price": 5.55,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Taylor Garcia",
+        "popularity": 5,
+        "condition": 9,
+        "price": 13.77,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jordan Garcia",
+        "popularity": 5,
+        "condition": 4,
+        "price": 7.18,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Casey Johnson",
+        "popularity": 1,
+        "condition": 3,
+        "price": 26.15,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jamie Williams",
+        "popularity": 4,
+        "condition": 4,
+        "price": 4.44,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Casey Miller",
+        "popularity": 1,
+        "condition": 1,
+        "price": 7.8,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Williams",
+        "popularity": 3,
+        "condition": 7,
+        "price": 16.57,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Peyton Miller",
+        "popularity": 1,
+        "condition": 7,
+        "price": 12.05,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Peyton Smith",
+        "popularity": 5,
+        "condition": 5,
+        "price": 24.13,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jordan Miller",
+        "popularity": 5,
+        "condition": 3,
+        "price": 20.22,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Riley Davis",
+        "popularity": 1,
+        "condition": 6,
+        "price": 5.73,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jordan Johnson",
+        "popularity": 5,
+        "condition": 7,
+        "price": 7.72,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Riley Jones",
+        "popularity": 2,
+        "condition": 3,
+        "price": 6.45,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Casey Miller",
+        "popularity": 2,
+        "condition": 4,
+        "price": 9.35,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Taylor Jones",
+        "popularity": 2,
+        "condition": 9,
+        "price": 24.63,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Peyton Rodriguez",
+        "popularity": 4,
+        "condition": 3,
+        "price": 12.96,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Casey Martinez",
+        "popularity": 1,
+        "condition": 4,
+        "price": 14.39,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Morgan Garcia",
+        "popularity": 3,
+        "condition": 4,
+        "price": 9.04,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Peyton Martinez",
+        "popularity": 1,
+        "condition": 7,
+        "price": 30.15,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jamie Rodriguez",
+        "popularity": 2,
+        "condition": 3,
+        "price": 17.9,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Casey Martinez",
+        "popularity": 5,
+        "condition": 10,
+        "price": 22.24,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jamie Rodriguez",
+        "popularity": 2,
+        "condition": 7,
+        "price": 27.58,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Davis",
+        "popularity": 4,
+        "condition": 6,
+        "price": 23.87,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jamie Davis",
+        "popularity": 1,
+        "condition": 1,
+        "price": 11.77,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jordan Martinez",
+        "popularity": 5,
+        "condition": 10,
+        "price": 17.65,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jamie Johnson",
+        "popularity": 3,
+        "condition": 9,
+        "price": 12.61,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Martinez",
+        "popularity": 5,
+        "condition": 4,
+        "price": 27.44,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Davis",
+        "popularity": 3,
+        "condition": 4,
+        "price": 29.4,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jamie Smith",
+        "popularity": 3,
+        "condition": 7,
+        "price": 28.87,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jamie Smith",
+        "popularity": 4,
+        "condition": 2,
+        "price": 9.65,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Alex Rodriguez",
+        "popularity": 1,
+        "condition": 2,
+        "price": 6.03,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jamie Garcia",
+        "popularity": 4,
+        "condition": 8,
+        "price": 20.76,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Casey Rodriguez",
+        "popularity": 3,
+        "condition": 3,
+        "price": 6.14,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Peyton Jones",
+        "popularity": 5,
+        "condition": 5,
+        "price": 23.25,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jordan Johnson",
+        "popularity": 2,
+        "condition": 3,
+        "price": 29.68,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Quinn Miller",
+        "popularity": 5,
+        "condition": 4,
+        "price": 12.83,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Morgan Williams",
+        "popularity": 5,
+        "condition": 2,
+        "price": 17.97,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Taylor Rodriguez",
+        "popularity": 4,
+        "condition": 8,
+        "price": 20.02,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jamie Smith",
+        "popularity": 2,
+        "condition": 3,
+        "price": 7.2,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Avery Smith",
+        "popularity": 2,
+        "condition": 4,
+        "price": 14.56,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Peyton Miller",
+        "popularity": 1,
+        "condition": 9,
+        "price": 20.05,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jordan Davis",
+        "popularity": 3,
+        "condition": 9,
+        "price": 20.23,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Avery Smith",
+        "popularity": 2,
+        "condition": 1,
+        "price": 7.86,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Peyton Jones",
+        "popularity": 4,
+        "condition": 3,
+        "price": 17.03,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Casey Miller",
+        "popularity": 5,
+        "condition": 7,
+        "price": 26.39,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jordan Rodriguez",
+        "popularity": 4,
+        "condition": 3,
+        "price": 22.12,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Peyton Martinez",
+        "popularity": 1,
+        "condition": 10,
+        "price": 5.6,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Casey Miller",
+        "popularity": 1,
+        "condition": 10,
+        "price": 15.17,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Smith",
+        "popularity": 4,
+        "condition": 3,
+        "price": 24.38,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Morgan Williams",
+        "popularity": 1,
+        "condition": 10,
+        "price": 21.58,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Miller",
+        "popularity": 1,
+        "condition": 10,
+        "price": 13.9,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Morgan Davis",
+        "popularity": 5,
+        "condition": 9,
+        "price": 29.8,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Riley Martinez",
+        "popularity": 2,
+        "condition": 6,
+        "price": 28.75,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Riley Jones",
+        "popularity": 1,
+        "condition": 1,
+        "price": 15.11,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jamie Garcia",
+        "popularity": 1,
+        "condition": 6,
+        "price": 30.45,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Taylor Davis",
+        "popularity": 4,
+        "condition": 2,
+        "price": 12.02,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Miller",
+        "popularity": 5,
+        "condition": 2,
+        "price": 12.51,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jordan Williams",
+        "popularity": 1,
+        "condition": 9,
+        "price": 13.63,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Quinn Rodriguez",
+        "popularity": 1,
+        "condition": 1,
+        "price": 14.45,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Peyton Davis",
+        "popularity": 1,
+        "condition": 9,
+        "price": 7.88,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Morgan Smith",
+        "popularity": 4,
+        "condition": 8,
+        "price": 28.9,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Alex Johnson",
+        "popularity": 5,
+        "condition": 10,
+        "price": 29.24,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Avery Brown",
+        "popularity": 4,
+        "condition": 7,
+        "price": 25.15,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Morgan Smith",
+        "popularity": 2,
+        "condition": 5,
+        "price": 20.14,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Rodriguez",
+        "popularity": 5,
+        "condition": 2,
+        "price": 25.45,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jordan Brown",
+        "popularity": 5,
+        "condition": 7,
+        "price": 4.78,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Peyton Davis",
+        "popularity": 3,
+        "condition": 5,
+        "price": 20.91,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Casey Smith",
+        "popularity": 5,
+        "condition": 1,
+        "price": 27.93,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Alex Jones",
+        "popularity": 5,
+        "condition": 2,
+        "price": 29.49,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Alex Martinez",
+        "popularity": 3,
+        "condition": 6,
+        "price": 16.5,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Quinn Smith",
+        "popularity": 5,
+        "condition": 9,
+        "price": 8.77,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Jones",
+        "popularity": 1,
+        "condition": 5,
+        "price": 15.5,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Alex Martinez",
+        "popularity": 5,
+        "condition": 6,
+        "price": 24.84,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Avery Brown",
+        "popularity": 4,
+        "condition": 10,
+        "price": 30.28,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jamie Miller",
+        "popularity": 3,
+        "condition": 9,
+        "price": 9.81,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Quinn Jones",
+        "popularity": 2,
+        "condition": 3,
+        "price": 24.4,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Riley Brown",
+        "popularity": 5,
+        "condition": 8,
+        "price": 23.04,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Taylor Martinez",
+        "popularity": 4,
+        "condition": 2,
+        "price": 17.27,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Morgan Williams",
+        "popularity": 4,
+        "condition": 4,
+        "price": 19.75,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Casey Williams",
+        "popularity": 3,
+        "condition": 4,
+        "price": 20.57,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Casey Martinez",
+        "popularity": 2,
+        "condition": 9,
+        "price": 26.19,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Morgan Davis",
+        "popularity": 4,
+        "condition": 10,
+        "price": 12.77,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jordan Brown",
+        "popularity": 1,
+        "condition": 2,
+        "price": 9.95,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Smith",
+        "popularity": 3,
+        "condition": 6,
+        "price": 19.06,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Taylor Miller",
+        "popularity": 3,
+        "condition": 4,
+        "price": 14.7,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Peyton Davis",
+        "popularity": 4,
+        "condition": 4,
+        "price": 27.27,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Avery Williams",
+        "popularity": 3,
+        "condition": 4,
+        "price": 21.04,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jamie Smith",
+        "popularity": 1,
+        "condition": 8,
+        "price": 5.82,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jamie Garcia",
+        "popularity": 2,
+        "condition": 5,
+        "price": 8.77,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Quinn Johnson",
+        "popularity": 2,
+        "condition": 1,
+        "price": 19.5,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Morgan Rodriguez",
+        "popularity": 3,
+        "condition": 1,
+        "price": 25.2,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Taylor Garcia",
+        "popularity": 5,
+        "condition": 3,
+        "price": 15.63,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jamie Williams",
+        "popularity": 4,
+        "condition": 3,
+        "price": 4.33,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Garcia",
+        "popularity": 1,
+        "condition": 5,
+        "price": 11.73,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Casey Garcia",
+        "popularity": 5,
+        "condition": 10,
+        "price": 23.51,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Quinn Rodriguez",
+        "popularity": 4,
+        "condition": 6,
+        "price": 12.8,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Riley Smith",
+        "popularity": 2,
+        "condition": 3,
+        "price": 12.32,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Casey Williams",
+        "popularity": 2,
+        "condition": 8,
+        "price": 21.99,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Taylor Martinez",
+        "popularity": 5,
+        "condition": 5,
+        "price": 16.61,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jamie Smith",
+        "popularity": 1,
+        "condition": 1,
+        "price": 15.41,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Smith",
+        "popularity": 2,
+        "condition": 6,
+        "price": 23.59,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Quinn Smith",
+        "popularity": 2,
+        "condition": 4,
+        "price": 19.13,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Riley Jones",
+        "popularity": 2,
+        "condition": 3,
+        "price": 5.69,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Quinn Brown",
+        "popularity": 5,
+        "condition": 3,
+        "price": 9.31,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Peyton Johnson",
+        "popularity": 3,
+        "condition": 6,
+        "price": 30.58,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Riley Rodriguez",
+        "popularity": 4,
+        "condition": 5,
+        "price": 22.44,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Avery Miller",
+        "popularity": 3,
+        "condition": 9,
+        "price": 28.39,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Avery Garcia",
+        "popularity": 1,
+        "condition": 2,
+        "price": 14.51,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Riley Williams",
+        "popularity": 1,
+        "condition": 10,
+        "price": 22.52,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Avery Miller",
+        "popularity": 2,
+        "condition": 3,
+        "price": 19.75,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Peyton Garcia",
+        "popularity": 1,
+        "condition": 5,
+        "price": 21.76,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Jones",
+        "popularity": 5,
+        "condition": 8,
+        "price": 15.65,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jordan Williams",
+        "popularity": 2,
+        "condition": 6,
+        "price": 11.5,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Jones",
+        "popularity": 4,
+        "condition": 3,
+        "price": 23.78,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Avery Miller",
+        "popularity": 1,
+        "condition": 9,
+        "price": 24.11,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jamie Williams",
+        "popularity": 3,
+        "condition": 2,
+        "price": 15.84,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jamie Williams",
+        "popularity": 5,
+        "condition": 7,
+        "price": 7.19,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Martinez",
+        "popularity": 5,
+        "condition": 10,
+        "price": 24.41,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Smith",
+        "popularity": 2,
+        "condition": 10,
+        "price": 30.88,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Taylor Martinez",
+        "popularity": 5,
+        "condition": 10,
+        "price": 24.16,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Morgan Johnson",
+        "popularity": 4,
+        "condition": 9,
+        "price": 19.47,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Morgan Johnson",
+        "popularity": 2,
+        "condition": 2,
+        "price": 30.42,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Casey Davis",
+        "popularity": 5,
+        "condition": 2,
+        "price": 23.32,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jamie Jones",
+        "popularity": 1,
+        "condition": 9,
+        "price": 6.72,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Morgan Williams",
+        "popularity": 2,
+        "condition": 6,
+        "price": 18.6,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Williams",
+        "popularity": 5,
+        "condition": 4,
+        "price": 10.18,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Garcia",
+        "popularity": 2,
+        "condition": 1,
+        "price": 30.89,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Davis",
+        "popularity": 4,
+        "condition": 10,
+        "price": 23.46,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Johnson",
+        "popularity": 3,
+        "condition": 10,
+        "price": 22.83,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Avery Smith",
+        "popularity": 1,
+        "condition": 3,
+        "price": 6.83,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Casey Smith",
+        "popularity": 1,
+        "condition": 9,
+        "price": 25.03,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Quinn Williams",
+        "popularity": 2,
+        "condition": 10,
+        "price": 5.39,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jamie Rodriguez",
+        "popularity": 4,
+        "condition": 4,
+        "price": 8.83,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jordan Johnson",
+        "popularity": 3,
+        "condition": 4,
+        "price": 20.49,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jordan Rodriguez",
+        "popularity": 3,
+        "condition": 7,
+        "price": 24.15,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Peyton Martinez",
+        "popularity": 3,
+        "condition": 2,
+        "price": 4.11,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Quinn Smith",
+        "popularity": 2,
+        "condition": 5,
+        "price": 26.93,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Peyton Garcia",
+        "popularity": 2,
+        "condition": 10,
+        "price": 29.92,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Peyton Brown",
+        "popularity": 4,
+        "condition": 6,
+        "price": 14.48,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jamie Martinez",
+        "popularity": 4,
+        "condition": 9,
+        "price": 15.9,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Quinn Brown",
+        "popularity": 4,
+        "condition": 2,
+        "price": 24.53,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Williams",
+        "popularity": 1,
+        "condition": 7,
+        "price": 25.31,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Riley Garcia",
+        "popularity": 3,
+        "condition": 1,
+        "price": 5.99,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Peyton Johnson",
+        "popularity": 3,
+        "condition": 8,
+        "price": 28.93,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jordan Davis",
+        "popularity": 5,
+        "condition": 2,
+        "price": 19.69,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Peyton Brown",
+        "popularity": 4,
+        "condition": 9,
+        "price": 14.11,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Johnson",
+        "popularity": 4,
+        "condition": 3,
+        "price": 23.23,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Riley Brown",
+        "popularity": 2,
+        "condition": 6,
+        "price": 25.41,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Jones",
+        "popularity": 2,
+        "condition": 4,
+        "price": 14.0,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Riley Johnson",
+        "popularity": 1,
+        "condition": 9,
+        "price": 29.1,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Quinn Martinez",
+        "popularity": 2,
+        "condition": 1,
+        "price": 22.07,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Peyton Garcia",
+        "popularity": 1,
+        "condition": 4,
+        "price": 12.22,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Casey Garcia",
+        "popularity": 3,
+        "condition": 8,
+        "price": 23.94,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Morgan Williams",
+        "popularity": 3,
+        "condition": 6,
+        "price": 11.19,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Quinn Williams",
+        "popularity": 3,
+        "condition": 2,
+        "price": 26.33,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Riley Martinez",
+        "popularity": 3,
+        "condition": 1,
+        "price": 30.4,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Smith",
+        "popularity": 3,
+        "condition": 9,
+        "price": 8.2,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Avery Rodriguez",
+        "popularity": 3,
+        "condition": 2,
+        "price": 4.24,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Davis",
+        "popularity": 1,
+        "condition": 7,
+        "price": 15.84,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Peyton Williams",
+        "popularity": 2,
+        "condition": 9,
+        "price": 18.43,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Morgan Rodriguez",
+        "popularity": 3,
+        "condition": 2,
+        "price": 5.6,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Miller",
+        "popularity": 2,
+        "condition": 6,
+        "price": 8.85,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Avery Smith",
+        "popularity": 1,
+        "condition": 6,
+        "price": 30.7,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Riley Rodriguez",
+        "popularity": 3,
+        "condition": 1,
+        "price": 13.84,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Smith",
+        "popularity": 3,
+        "condition": 2,
+        "price": 14.31,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Avery Smith",
+        "popularity": 4,
+        "condition": 10,
+        "price": 27.84,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jamie Davis",
+        "popularity": 4,
+        "condition": 6,
+        "price": 25.73,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jordan Martinez",
+        "popularity": 4,
+        "condition": 2,
+        "price": 9.47,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Taylor Rodriguez",
+        "popularity": 2,
+        "condition": 5,
+        "price": 6.74,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Johnson",
+        "popularity": 1,
+        "condition": 2,
+        "price": 11.3,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Riley Garcia",
+        "popularity": 4,
+        "condition": 5,
+        "price": 25.89,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Riley Johnson",
+        "popularity": 4,
+        "condition": 3,
+        "price": 15.73,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jamie Garcia",
+        "popularity": 4,
+        "condition": 6,
+        "price": 30.62,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Peyton Garcia",
+        "popularity": 1,
+        "condition": 10,
+        "price": 27.43,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jamie Davis",
+        "popularity": 4,
+        "condition": 3,
+        "price": 25.1,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Casey Williams",
+        "popularity": 1,
+        "condition": 1,
+        "price": 19.91,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Morgan Williams",
+        "popularity": 3,
+        "condition": 9,
+        "price": 10.99,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Davis",
+        "popularity": 4,
+        "condition": 6,
+        "price": 8.56,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Garcia",
+        "popularity": 3,
+        "condition": 3,
+        "price": 13.27,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Avery Johnson",
+        "popularity": 3,
+        "condition": 7,
+        "price": 30.61,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Avery Miller",
+        "popularity": 4,
+        "condition": 1,
+        "price": 19.38,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Quinn Jones",
+        "popularity": 4,
+        "condition": 5,
+        "price": 21.86,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Garcia",
+        "popularity": 3,
+        "condition": 5,
+        "price": 28.08,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Quinn Rodriguez",
+        "popularity": 3,
+        "condition": 6,
+        "price": 28.57,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Brown",
+        "popularity": 5,
+        "condition": 9,
+        "price": 29.58,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jordan Smith",
+        "popularity": 2,
+        "condition": 5,
+        "price": 9.16,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Peyton Rodriguez",
+        "popularity": 1,
+        "condition": 10,
+        "price": 29.14,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Avery Miller",
+        "popularity": 2,
+        "condition": 10,
+        "price": 15.66,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Alex Smith",
+        "popularity": 5,
+        "condition": 4,
+        "price": 20.05,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Morgan Martinez",
+        "popularity": 2,
+        "condition": 8,
+        "price": 29.93,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Avery Johnson",
+        "popularity": 2,
+        "condition": 2,
+        "price": 18.14,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Peyton Miller",
+        "popularity": 5,
+        "condition": 6,
+        "price": 14.0,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jamie Davis",
+        "popularity": 2,
+        "condition": 1,
+        "price": 10.93,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Casey Jones",
+        "popularity": 2,
+        "condition": 7,
+        "price": 22.66,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Williams",
+        "popularity": 5,
+        "condition": 9,
+        "price": 11.91,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Riley Martinez",
+        "popularity": 5,
+        "condition": 7,
+        "price": 27.2,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Peyton Williams",
+        "popularity": 1,
+        "condition": 5,
+        "price": 16.41,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Quinn Davis",
+        "popularity": 3,
+        "condition": 6,
+        "price": 29.4,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Casey Johnson",
+        "popularity": 2,
+        "condition": 1,
+        "price": 6.23,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jordan Jones",
+        "popularity": 3,
+        "condition": 3,
+        "price": 17.57,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jamie Davis",
+        "popularity": 1,
+        "condition": 9,
+        "price": 10.07,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Casey Johnson",
+        "popularity": 2,
+        "condition": 4,
+        "price": 22.94,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Morgan Brown",
+        "popularity": 3,
+        "condition": 2,
+        "price": 11.47,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Brown",
+        "popularity": 2,
+        "condition": 10,
+        "price": 9.25,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Alex Smith",
+        "popularity": 1,
+        "condition": 5,
+        "price": 20.99,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Garcia",
+        "popularity": 4,
+        "condition": 1,
+        "price": 21.95,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Avery Jones",
+        "popularity": 5,
+        "condition": 4,
+        "price": 8.37,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Garcia",
+        "popularity": 5,
+        "condition": 6,
+        "price": 7.59,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Peyton Miller",
+        "popularity": 4,
+        "condition": 10,
+        "price": 14.13,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Quinn Johnson",
+        "popularity": 5,
+        "condition": 3,
+        "price": 26.11,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Johnson",
+        "popularity": 4,
+        "condition": 3,
+        "price": 29.4,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Avery Miller",
+        "popularity": 4,
+        "condition": 9,
+        "price": 11.43,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Miller",
+        "popularity": 5,
+        "condition": 2,
+        "price": 17.3,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Morgan Rodriguez",
+        "popularity": 4,
+        "condition": 4,
+        "price": 10.82,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Riley Jones",
+        "popularity": 2,
+        "condition": 7,
+        "price": 18.49,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Smith",
+        "popularity": 4,
+        "condition": 2,
+        "price": 10.25,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Williams",
+        "popularity": 4,
+        "condition": 9,
+        "price": 10.31,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jamie Smith",
+        "popularity": 4,
+        "condition": 6,
+        "price": 12.7,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Taylor Williams",
+        "popularity": 2,
+        "condition": 4,
+        "price": 30.72,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Quinn Williams",
+        "popularity": 4,
+        "condition": 2,
+        "price": 27.41,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Alex Johnson",
+        "popularity": 4,
+        "condition": 5,
+        "price": 22.53,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jordan Martinez",
+        "popularity": 3,
+        "condition": 1,
+        "price": 13.17,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Avery Smith",
+        "popularity": 2,
+        "condition": 4,
+        "price": 9.87,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Avery Brown",
+        "popularity": 3,
+        "condition": 5,
+        "price": 24.06,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Peyton Brown",
+        "popularity": 5,
+        "condition": 1,
+        "price": 14.68,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Riley Martinez",
+        "popularity": 3,
+        "condition": 4,
+        "price": 24.25,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Miller",
+        "popularity": 1,
+        "condition": 2,
+        "price": 11.71,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jordan Garcia",
+        "popularity": 5,
+        "condition": 7,
+        "price": 5.76,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jamie Brown",
+        "popularity": 4,
+        "condition": 5,
+        "price": 8.2,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Alex Garcia",
+        "popularity": 2,
+        "condition": 2,
+        "price": 19.33,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Alex Johnson",
+        "popularity": 5,
+        "condition": 6,
+        "price": 17.1,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Quinn Johnson",
+        "popularity": 2,
+        "condition": 4,
+        "price": 18.08,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Quinn Smith",
+        "popularity": 5,
+        "condition": 5,
+        "price": 22.16,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Garcia",
+        "popularity": 5,
+        "condition": 6,
+        "price": 23.35,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Brown",
+        "popularity": 3,
+        "condition": 5,
+        "price": 8.46,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Morgan Rodriguez",
+        "popularity": 2,
+        "condition": 7,
+        "price": 7.26,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jordan Brown",
+        "popularity": 2,
+        "condition": 7,
+        "price": 20.01,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Alex Martinez",
+        "popularity": 1,
+        "condition": 3,
+        "price": 4.42,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jordan Williams",
+        "popularity": 5,
+        "condition": 6,
+        "price": 30.99,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Avery Davis",
+        "popularity": 3,
+        "condition": 6,
+        "price": 22.74,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jamie Miller",
+        "popularity": 5,
+        "condition": 2,
+        "price": 11.88,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Casey Garcia",
+        "popularity": 4,
+        "condition": 4,
+        "price": 10.08,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Quinn Martinez",
+        "popularity": 5,
+        "condition": 3,
+        "price": 19.26,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Taylor Williams",
+        "popularity": 2,
+        "condition": 7,
+        "price": 4.55,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Johnson",
+        "popularity": 3,
+        "condition": 1,
+        "price": 4.65,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jamie Smith",
+        "popularity": 5,
+        "condition": 8,
+        "price": 19.65,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jamie Smith",
+        "popularity": 3,
+        "condition": 3,
+        "price": 24.49,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Alex Rodriguez",
+        "popularity": 2,
+        "condition": 5,
+        "price": 25.53,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Casey Garcia",
+        "popularity": 4,
+        "condition": 6,
+        "price": 5.2,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Martinez",
+        "popularity": 5,
+        "condition": 8,
+        "price": 15.0,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Avery Williams",
+        "popularity": 4,
+        "condition": 5,
+        "price": 15.66,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Miller",
+        "popularity": 1,
+        "condition": 7,
+        "price": 9.06,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Morgan Rodriguez",
+        "popularity": 3,
+        "condition": 7,
+        "price": 15.34,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Peyton Jones",
+        "popularity": 2,
+        "condition": 4,
+        "price": 15.95,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Jones",
+        "popularity": 2,
+        "condition": 1,
+        "price": 26.94,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Casey Williams",
+        "popularity": 1,
+        "condition": 6,
+        "price": 16.51,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Alex Johnson",
+        "popularity": 1,
+        "condition": 2,
+        "price": 16.53,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Riley Miller",
+        "popularity": 4,
+        "condition": 3,
+        "price": 28.01,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Peyton Williams",
+        "popularity": 5,
+        "condition": 10,
+        "price": 22.85,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Peyton Jones",
+        "popularity": 1,
+        "condition": 4,
+        "price": 28.29,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Riley Johnson",
+        "popularity": 5,
+        "condition": 9,
+        "price": 15.55,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Alex Miller",
+        "popularity": 3,
+        "condition": 6,
+        "price": 17.21,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jordan Jones",
+        "popularity": 1,
+        "condition": 6,
+        "price": 26.38,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Davis",
+        "popularity": 4,
+        "condition": 9,
+        "price": 20.0,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Peyton Williams",
+        "popularity": 2,
+        "condition": 4,
+        "price": 9.36,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Rodriguez",
+        "popularity": 1,
+        "condition": 8,
+        "price": 20.63,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jordan Brown",
+        "popularity": 3,
+        "condition": 3,
+        "price": 26.16,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Avery Brown",
+        "popularity": 5,
+        "condition": 10,
+        "price": 24.7,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Avery Garcia",
+        "popularity": 3,
+        "condition": 2,
+        "price": 27.96,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Smith",
+        "popularity": 5,
+        "condition": 6,
+        "price": 28.71,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Peyton Brown",
+        "popularity": 5,
+        "condition": 6,
+        "price": 6.09,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jordan Williams",
+        "popularity": 5,
+        "condition": 8,
+        "price": 22.61,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Jones",
+        "popularity": 4,
+        "condition": 3,
+        "price": 12.76,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Jones",
+        "popularity": 4,
+        "condition": 3,
+        "price": 12.27,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Alex Smith",
+        "popularity": 3,
+        "condition": 2,
+        "price": 4.4,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Jones",
+        "popularity": 2,
+        "condition": 1,
+        "price": 12.72,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Jones",
+        "popularity": 3,
+        "condition": 7,
+        "price": 24.93,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Taylor Smith",
+        "popularity": 2,
+        "condition": 8,
+        "price": 24.25,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Martinez",
+        "popularity": 1,
+        "condition": 9,
+        "price": 8.42,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Avery Smith",
+        "popularity": 4,
+        "condition": 6,
+        "price": 18.11,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Alex Miller",
+        "popularity": 4,
+        "condition": 6,
+        "price": 7.54,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jordan Smith",
+        "popularity": 5,
+        "condition": 1,
+        "price": 13.34,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Alex Miller",
+        "popularity": 3,
+        "condition": 5,
+        "price": 9.4,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Riley Martinez",
+        "popularity": 5,
+        "condition": 4,
+        "price": 20.36,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jordan Garcia",
+        "popularity": 1,
+        "condition": 9,
+        "price": 9.85,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Morgan Brown",
+        "popularity": 4,
+        "condition": 4,
+        "price": 19.26,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Avery Jones",
+        "popularity": 5,
+        "condition": 9,
+        "price": 24.54,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Riley Smith",
+        "popularity": 3,
+        "condition": 7,
+        "price": 30.87,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Quinn Martinez",
+        "popularity": 4,
+        "condition": 10,
+        "price": 21.84,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Jones",
+        "popularity": 1,
+        "condition": 8,
+        "price": 4.97,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Johnson",
+        "popularity": 1,
+        "condition": 3,
+        "price": 6.91,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Peyton Johnson",
+        "popularity": 2,
+        "condition": 3,
+        "price": 21.9,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Jones",
+        "popularity": 5,
+        "condition": 7,
+        "price": 30.15,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Peyton Rodriguez",
+        "popularity": 4,
+        "condition": 7,
+        "price": 26.8,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Miller",
+        "popularity": 5,
+        "condition": 3,
+        "price": 11.98,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Brown",
+        "popularity": 4,
+        "condition": 1,
+        "price": 11.35,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jamie Davis",
+        "popularity": 4,
+        "condition": 9,
+        "price": 26.66,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Riley Jones",
+        "popularity": 1,
+        "condition": 7,
+        "price": 23.83,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jordan Brown",
+        "popularity": 3,
+        "condition": 8,
+        "price": 23.97,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Quinn Williams",
+        "popularity": 2,
+        "condition": 3,
+        "price": 13.42,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Alex Smith",
+        "popularity": 5,
+        "condition": 1,
+        "price": 25.48,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Riley Brown",
+        "popularity": 2,
+        "condition": 6,
+        "price": 29.88,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Avery Williams",
+        "popularity": 5,
+        "condition": 6,
+        "price": 5.97,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Quinn Garcia",
+        "popularity": 5,
+        "condition": 3,
+        "price": 30.26,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Jones",
+        "popularity": 5,
+        "condition": 10,
+        "price": 25.8,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Avery Brown",
+        "popularity": 2,
+        "condition": 1,
+        "price": 12.75,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Smith",
+        "popularity": 2,
+        "condition": 8,
+        "price": 16.65,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Brown",
+        "popularity": 5,
+        "condition": 5,
+        "price": 4.47,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Johnson",
+        "popularity": 1,
+        "condition": 1,
+        "price": 20.41,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Quinn Brown",
+        "popularity": 4,
+        "condition": 5,
+        "price": 27.62,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Quinn Miller",
+        "popularity": 3,
+        "condition": 5,
+        "price": 19.13,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Jones",
+        "popularity": 3,
+        "condition": 5,
+        "price": 17.84,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Morgan Garcia",
+        "popularity": 3,
+        "condition": 3,
+        "price": 16.01,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Riley Martinez",
+        "popularity": 2,
+        "condition": 1,
+        "price": 9.57,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Taylor Garcia",
+        "popularity": 4,
+        "condition": 1,
+        "price": 30.37,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Avery Jones",
+        "popularity": 2,
+        "condition": 6,
+        "price": 8.75,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Avery Rodriguez",
+        "popularity": 3,
+        "condition": 7,
+        "price": 18.98,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Johnson",
+        "popularity": 4,
+        "condition": 8,
+        "price": 19.37,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jordan Brown",
+        "popularity": 2,
+        "condition": 4,
+        "price": 26.9,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Alex Rodriguez",
+        "popularity": 3,
+        "condition": 10,
+        "price": 24.5,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Riley Johnson",
+        "popularity": 1,
+        "condition": 7,
+        "price": 30.03,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Avery Miller",
+        "popularity": 5,
+        "condition": 2,
+        "price": 23.81,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Jones",
+        "popularity": 5,
+        "condition": 5,
+        "price": 7.66,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Casey Brown",
+        "popularity": 5,
+        "condition": 3,
+        "price": 28.5,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Rodriguez",
+        "popularity": 1,
+        "condition": 5,
+        "price": 18.46,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Peyton Martinez",
+        "popularity": 2,
+        "condition": 9,
+        "price": 8.9,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jamie Smith",
+        "popularity": 2,
+        "condition": 6,
+        "price": 26.75,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jamie Johnson",
+        "popularity": 4,
+        "condition": 6,
+        "price": 10.4,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Rodriguez",
+        "popularity": 4,
+        "condition": 5,
+        "price": 30.79,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Smith",
+        "popularity": 4,
+        "condition": 6,
+        "price": 29.85,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jamie Martinez",
+        "popularity": 5,
+        "condition": 10,
+        "price": 10.49,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Casey Garcia",
+        "popularity": 4,
+        "condition": 4,
+        "price": 22.49,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Davis",
+        "popularity": 3,
+        "condition": 2,
+        "price": 30.38,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jordan Rodriguez",
+        "popularity": 4,
+        "condition": 1,
+        "price": 11.75,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Taylor Brown",
+        "popularity": 4,
+        "condition": 2,
+        "price": 19.19,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Garcia",
+        "popularity": 1,
+        "condition": 4,
+        "price": 15.25,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Avery Davis",
+        "popularity": 2,
+        "condition": 8,
+        "price": 15.95,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jordan Williams",
+        "popularity": 1,
+        "condition": 5,
+        "price": 5.57,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Riley Williams",
+        "popularity": 3,
+        "condition": 9,
+        "price": 10.5,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Smith",
+        "popularity": 3,
+        "condition": 9,
+        "price": 26.37,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jamie Smith",
+        "popularity": 3,
+        "condition": 4,
+        "price": 25.4,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Peyton Jones",
+        "popularity": 3,
+        "condition": 6,
+        "price": 27.43,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Johnson",
+        "popularity": 1,
+        "condition": 5,
+        "price": 19.23,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Taylor Davis",
+        "popularity": 5,
+        "condition": 9,
+        "price": 25.33,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Brown",
+        "popularity": 2,
+        "condition": 10,
+        "price": 13.07,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Taylor Smith",
+        "popularity": 4,
+        "condition": 10,
+        "price": 28.43,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Avery Garcia",
+        "popularity": 1,
+        "condition": 8,
+        "price": 29.84,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jamie Johnson",
+        "popularity": 3,
+        "condition": 2,
+        "price": 13.74,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Brown",
+        "popularity": 4,
+        "condition": 1,
+        "price": 22.63,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Avery Smith",
+        "popularity": 3,
+        "condition": 8,
+        "price": 8.73,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Peyton Rodriguez",
+        "popularity": 2,
+        "condition": 7,
+        "price": 22.35,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Peyton Davis",
+        "popularity": 5,
+        "condition": 8,
+        "price": 18.44,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Smith",
+        "popularity": 3,
+        "condition": 1,
+        "price": 13.43,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Quinn Jones",
+        "popularity": 4,
+        "condition": 1,
+        "price": 17.39,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Riley Johnson",
+        "popularity": 3,
+        "condition": 6,
+        "price": 15.74,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Quinn Garcia",
+        "popularity": 2,
+        "condition": 4,
+        "price": 7.66,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Morgan Davis",
+        "popularity": 4,
+        "condition": 1,
+        "price": 22.01,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Alex Miller",
+        "popularity": 5,
+        "condition": 6,
+        "price": 9.14,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Avery Martinez",
+        "popularity": 4,
+        "condition": 1,
+        "price": 26.68,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jordan Williams",
+        "popularity": 5,
+        "condition": 9,
+        "price": 10.34,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Casey Brown",
+        "popularity": 1,
+        "condition": 7,
+        "price": 25.27,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Riley Davis",
+        "popularity": 2,
+        "condition": 3,
+        "price": 20.85,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jamie Johnson",
+        "popularity": 2,
+        "condition": 7,
+        "price": 18.85,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Johnson",
+        "popularity": 4,
+        "condition": 3,
+        "price": 14.8,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Morgan Brown",
+        "popularity": 3,
+        "condition": 2,
+        "price": 7.12,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jamie Johnson",
+        "popularity": 2,
+        "condition": 3,
+        "price": 18.74,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Peyton Brown",
+        "popularity": 2,
+        "condition": 5,
+        "price": 24.8,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Taylor Jones",
+        "popularity": 2,
+        "condition": 8,
+        "price": 20.86,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Jones",
+        "popularity": 1,
+        "condition": 1,
+        "price": 27.04,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Casey Garcia",
+        "popularity": 2,
+        "condition": 2,
+        "price": 19.9,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Alex Davis",
+        "popularity": 3,
+        "condition": 1,
+        "price": 19.39,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Taylor Smith",
+        "popularity": 2,
+        "condition": 2,
+        "price": 17.54,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Taylor Smith",
+        "popularity": 2,
+        "condition": 3,
+        "price": 11.0,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Martinez",
+        "popularity": 1,
+        "condition": 6,
+        "price": 10.91,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jordan Williams",
+        "popularity": 2,
+        "condition": 3,
+        "price": 10.98,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jamie Rodriguez",
+        "popularity": 5,
+        "condition": 7,
+        "price": 19.85,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Brown",
+        "popularity": 3,
+        "condition": 7,
+        "price": 12.1,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Quinn Johnson",
+        "popularity": 4,
+        "condition": 10,
+        "price": 9.06,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jamie Jones",
+        "popularity": 1,
+        "condition": 1,
+        "price": 14.31,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Smith",
+        "popularity": 1,
+        "condition": 8,
+        "price": 16.78,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Alex Davis",
+        "popularity": 2,
+        "condition": 3,
+        "price": 18.37,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Riley Brown",
+        "popularity": 1,
+        "condition": 10,
+        "price": 6.68,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jordan Johnson",
+        "popularity": 2,
+        "condition": 4,
+        "price": 24.74,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Quinn Jones",
+        "popularity": 4,
+        "condition": 7,
+        "price": 11.71,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Casey Garcia",
+        "popularity": 5,
+        "condition": 6,
+        "price": 14.24,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Morgan Smith",
+        "popularity": 4,
+        "condition": 6,
+        "price": 20.98,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Avery Jones",
+        "popularity": 1,
+        "condition": 5,
+        "price": 4.83,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Smith",
+        "popularity": 4,
+        "condition": 7,
+        "price": 5.09,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Quinn Miller",
+        "popularity": 2,
+        "condition": 9,
+        "price": 4.7,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Morgan Brown",
+        "popularity": 4,
+        "condition": 10,
+        "price": 6.43,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jordan Jones",
+        "popularity": 2,
+        "condition": 10,
+        "price": 22.24,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Alex Martinez",
+        "popularity": 5,
+        "condition": 9,
+        "price": 20.26,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Riley Brown",
+        "popularity": 5,
+        "condition": 9,
+        "price": 6.2,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Peyton Smith",
+        "popularity": 2,
+        "condition": 5,
+        "price": 18.54,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jamie Brown",
+        "popularity": 4,
+        "condition": 1,
+        "price": 14.92,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Jones",
+        "popularity": 1,
+        "condition": 5,
+        "price": 23.68,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Avery Jones",
+        "popularity": 5,
+        "condition": 4,
+        "price": 22.19,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Taylor Smith",
+        "popularity": 2,
+        "condition": 8,
+        "price": 4.18,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jamie Johnson",
+        "popularity": 1,
+        "condition": 6,
+        "price": 18.42,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Quinn Davis",
+        "popularity": 3,
+        "condition": 9,
+        "price": 20.74,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Avery Garcia",
+        "popularity": 5,
+        "condition": 2,
+        "price": 20.58,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Smith",
+        "popularity": 3,
+        "condition": 1,
+        "price": 22.5,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Riley Miller",
+        "popularity": 5,
+        "condition": 5,
+        "price": 15.66,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Quinn Smith",
+        "popularity": 3,
+        "condition": 10,
+        "price": 21.61,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Alex Jones",
+        "popularity": 3,
+        "condition": 10,
+        "price": 29.06,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Morgan Johnson",
+        "popularity": 5,
+        "condition": 10,
+        "price": 9.03,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Casey Martinez",
+        "popularity": 5,
+        "condition": 1,
+        "price": 22.16,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Brown",
+        "popularity": 1,
+        "condition": 9,
+        "price": 18.64,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Morgan Rodriguez",
+        "popularity": 4,
+        "condition": 10,
+        "price": 25.58,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Peyton Garcia",
+        "popularity": 1,
+        "condition": 5,
+        "price": 14.77,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Miller",
+        "popularity": 2,
+        "condition": 2,
+        "price": 23.33,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jordan Smith",
+        "popularity": 1,
+        "condition": 4,
+        "price": 9.21,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Avery Jones",
+        "popularity": 3,
+        "condition": 6,
+        "price": 27.49,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Rodriguez",
+        "popularity": 3,
+        "condition": 6,
+        "price": 28.61,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Morgan Miller",
+        "popularity": 2,
+        "condition": 10,
+        "price": 22.69,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Quinn Smith",
+        "popularity": 5,
+        "condition": 8,
+        "price": 21.08,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Morgan Smith",
+        "popularity": 2,
+        "condition": 5,
+        "price": 22.76,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Alex Martinez",
+        "popularity": 5,
+        "condition": 10,
+        "price": 26.52,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Smith",
+        "popularity": 3,
+        "condition": 9,
+        "price": 9.74,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Quinn Jones",
+        "popularity": 3,
+        "condition": 5,
+        "price": 23.78,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Jones",
+        "popularity": 4,
+        "condition": 3,
+        "price": 23.89,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Morgan Williams",
+        "popularity": 1,
+        "condition": 1,
+        "price": 19.89,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Jones",
+        "popularity": 5,
+        "condition": 2,
+        "price": 24.77,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Avery Rodriguez",
+        "popularity": 1,
+        "condition": 4,
+        "price": 19.82,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Garcia",
+        "popularity": 2,
+        "condition": 5,
+        "price": 9.18,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Casey Miller",
+        "popularity": 1,
+        "condition": 6,
+        "price": 18.94,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Davis",
+        "popularity": 1,
+        "condition": 7,
+        "price": 13.51,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Casey Johnson",
+        "popularity": 3,
+        "condition": 3,
+        "price": 12.6,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Rodriguez",
+        "popularity": 5,
+        "condition": 1,
+        "price": 13.71,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Peyton Johnson",
+        "popularity": 5,
+        "condition": 9,
+        "price": 29.92,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Riley Davis",
+        "popularity": 1,
+        "condition": 9,
+        "price": 22.14,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Riley Williams",
+        "popularity": 2,
+        "condition": 7,
+        "price": 15.74,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Avery Miller",
+        "popularity": 3,
+        "condition": 7,
+        "price": 29.68,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jordan Martinez",
+        "popularity": 1,
+        "condition": 9,
+        "price": 20.57,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jamie Smith",
+        "popularity": 4,
+        "condition": 3,
+        "price": 13.94,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Casey Rodriguez",
+        "popularity": 1,
+        "condition": 6,
+        "price": 5.73,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Quinn Smith",
+        "popularity": 3,
+        "condition": 9,
+        "price": 25.96,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Quinn Davis",
+        "popularity": 5,
+        "condition": 6,
+        "price": 4.77,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Riley Davis",
+        "popularity": 1,
+        "condition": 1,
+        "price": 21.83,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Taylor Martinez",
+        "popularity": 4,
+        "condition": 9,
+        "price": 22.05,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jamie Smith",
+        "popularity": 3,
+        "condition": 1,
+        "price": 15.61,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Alex Williams",
+        "popularity": 5,
+        "condition": 6,
+        "price": 7.68,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jamie Smith",
+        "popularity": 1,
+        "condition": 5,
+        "price": 8.73,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Johnson",
+        "popularity": 2,
+        "condition": 1,
+        "price": 8.74,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Peyton Davis",
+        "popularity": 5,
+        "condition": 2,
+        "price": 28.14,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Garcia",
+        "popularity": 2,
+        "condition": 10,
+        "price": 7.02,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Brown",
+        "popularity": 4,
+        "condition": 7,
+        "price": 7.84,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Brown",
+        "popularity": 1,
+        "condition": 1,
+        "price": 20.19,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Avery Rodriguez",
+        "popularity": 1,
+        "condition": 7,
+        "price": 5.94,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Avery Martinez",
+        "popularity": 2,
+        "condition": 9,
+        "price": 14.09,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jamie Johnson",
+        "popularity": 1,
+        "condition": 7,
+        "price": 14.91,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Casey Davis",
+        "popularity": 2,
+        "condition": 10,
+        "price": 22.17,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Martinez",
+        "popularity": 2,
+        "condition": 3,
+        "price": 4.62,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jamie Johnson",
+        "popularity": 5,
+        "condition": 2,
+        "price": 20.47,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Morgan Rodriguez",
+        "popularity": 5,
+        "condition": 2,
+        "price": 21.91,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Quinn Johnson",
+        "popularity": 4,
+        "condition": 6,
+        "price": 30.7,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Taylor Davis",
+        "popularity": 4,
+        "condition": 6,
+        "price": 29.6,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Rodriguez",
+        "popularity": 5,
+        "condition": 2,
+        "price": 27.58,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jamie Miller",
+        "popularity": 2,
+        "condition": 3,
+        "price": 5.31,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jordan Smith",
+        "popularity": 5,
+        "condition": 4,
+        "price": 25.05,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Casey Jones",
+        "popularity": 5,
+        "condition": 3,
+        "price": 21.61,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Alex Johnson",
+        "popularity": 5,
+        "condition": 8,
+        "price": 17.77,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Casey Rodriguez",
+        "popularity": 2,
+        "condition": 3,
+        "price": 20.29,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Peyton Rodriguez",
+        "popularity": 3,
+        "condition": 1,
+        "price": 18.77,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Williams",
+        "popularity": 4,
+        "condition": 3,
+        "price": 13.42,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Casey Jones",
+        "popularity": 1,
+        "condition": 9,
+        "price": 17.82,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Quinn Rodriguez",
+        "popularity": 3,
+        "condition": 5,
+        "price": 5.36,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Smith",
+        "popularity": 5,
+        "condition": 2,
+        "price": 14.87,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jamie Rodriguez",
+        "popularity": 2,
+        "condition": 2,
+        "price": 27.28,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Casey Davis",
+        "popularity": 3,
+        "condition": 7,
+        "price": 17.57,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Alex Martinez",
+        "popularity": 4,
+        "condition": 3,
+        "price": 5.97,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Quinn Johnson",
+        "popularity": 2,
+        "condition": 5,
+        "price": 21.31,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Casey Williams",
+        "popularity": 1,
+        "condition": 1,
+        "price": 18.19,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Casey Martinez",
+        "popularity": 3,
+        "condition": 5,
+        "price": 8.83,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Johnson",
+        "popularity": 3,
+        "condition": 1,
+        "price": 4.41,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Riley Jones",
+        "popularity": 5,
+        "condition": 6,
+        "price": 21.47,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jamie Davis",
+        "popularity": 3,
+        "condition": 2,
+        "price": 24.58,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Garcia",
+        "popularity": 1,
+        "condition": 1,
+        "price": 13.22,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Riley Smith",
+        "popularity": 3,
+        "condition": 6,
+        "price": 6.38,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Morgan Martinez",
+        "popularity": 5,
+        "condition": 1,
+        "price": 5.01,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Miller",
+        "popularity": 4,
+        "condition": 7,
+        "price": 4.62,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jordan Martinez",
+        "popularity": 4,
+        "condition": 8,
+        "price": 5.45,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jamie Williams",
+        "popularity": 3,
+        "condition": 8,
+        "price": 21.95,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jordan Jones",
+        "popularity": 5,
+        "condition": 4,
+        "price": 14.68,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Avery Rodriguez",
+        "popularity": 4,
+        "condition": 6,
+        "price": 20.96,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jamie Rodriguez",
+        "popularity": 5,
+        "condition": 10,
+        "price": 9.58,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Taylor Brown",
+        "popularity": 4,
+        "condition": 2,
+        "price": 11.3,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Riley Brown",
+        "popularity": 1,
+        "condition": 9,
+        "price": 23.89,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Morgan Martinez",
+        "popularity": 1,
+        "condition": 8,
+        "price": 18.17,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jamie Miller",
+        "popularity": 4,
+        "condition": 10,
+        "price": 29.56,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Jordan Davis",
+        "popularity": 2,
+        "condition": 10,
+        "price": 27.48,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Casey Smith",
+        "popularity": 5,
+        "condition": 10,
+        "price": 22.69,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Casey Johnson",
+        "popularity": 3,
+        "condition": 5,
+        "price": 11.86,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Riley Jones",
+        "popularity": 2,
+        "condition": 6,
+        "price": 6.85,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Miller",
+        "popularity": 2,
+        "condition": 1,
+        "price": 29.37,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Morgan Johnson",
+        "popularity": 4,
+        "condition": 1,
+        "price": 11.77,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Martinez",
+        "popularity": 1,
+        "condition": 7,
+        "price": 28.59,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Quinn Jones",
+        "popularity": 2,
+        "condition": 8,
+        "price": 20.37,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Taylor Williams",
+        "popularity": 5,
+        "condition": 8,
+        "price": 24.3,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jamie Garcia",
+        "popularity": 5,
+        "condition": 1,
+        "price": 7.55,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Garcia",
+        "popularity": 4,
+        "condition": 1,
+        "price": 20.14,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jamie Smith",
+        "popularity": 1,
+        "condition": 7,
+        "price": 30.76,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Davis",
+        "popularity": 4,
+        "condition": 4,
+        "price": 16.82,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Casey Brown",
+        "popularity": 4,
+        "condition": 3,
+        "price": 28.6,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Morgan Martinez",
+        "popularity": 1,
+        "condition": 5,
+        "price": 22.61,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jamie Garcia",
+        "popularity": 2,
+        "condition": 10,
+        "price": 19.78,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Casey Davis",
+        "popularity": 1,
+        "condition": 6,
+        "price": 23.94,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Peyton Smith",
+        "popularity": 5,
+        "condition": 3,
+        "price": 11.42,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Smith",
+        "popularity": 1,
+        "condition": 6,
+        "price": 22.57,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Avery Davis",
+        "popularity": 5,
+        "condition": 10,
+        "price": 24.55,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jordan Williams",
+        "popularity": 4,
+        "condition": 5,
+        "price": 24.09,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jordan Jones",
+        "popularity": 3,
+        "condition": 2,
+        "price": 23.06,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Casey Brown",
+        "popularity": 5,
+        "condition": 2,
+        "price": 16.52,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Casey Brown",
+        "popularity": 1,
+        "condition": 2,
+        "price": 4.56,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Morgan Jones",
+        "popularity": 3,
+        "condition": 5,
+        "price": 21.23,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Casey Williams",
+        "popularity": 4,
+        "condition": 2,
+        "price": 27.36,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jordan Martinez",
+        "popularity": 5,
+        "condition": 6,
+        "price": 22.58,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Quinn Williams",
+        "popularity": 2,
+        "condition": 3,
+        "price": 16.63,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Alex Johnson",
+        "popularity": 4,
+        "condition": 8,
+        "price": 21.4,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Avery Johnson",
+        "popularity": 4,
+        "condition": 1,
+        "price": 25.49,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Quinn Williams",
+        "popularity": 3,
+        "condition": 9,
+        "price": 6.19,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Riley Miller",
+        "popularity": 3,
+        "condition": 1,
+        "price": 28.2,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Avery Martinez",
+        "popularity": 4,
+        "condition": 9,
+        "price": 13.87,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Williams",
+        "popularity": 1,
+        "condition": 4,
+        "price": 27.42,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Taylor Miller",
+        "popularity": 2,
+        "condition": 4,
+        "price": 11.53,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Riley Miller",
+        "popularity": 5,
+        "condition": 2,
+        "price": 8.8,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Avery Rodriguez",
+        "popularity": 1,
+        "condition": 3,
+        "price": 12.9,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Garcia",
+        "popularity": 4,
+        "condition": 1,
+        "price": 25.91,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Taylor Garcia",
+        "popularity": 5,
+        "condition": 4,
+        "price": 5.57,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Miller",
+        "popularity": 2,
+        "condition": 10,
+        "price": 10.49,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Quinn Rodriguez",
+        "popularity": 4,
+        "condition": 7,
+        "price": 20.12,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Jamie Smith",
+        "popularity": 4,
+        "condition": 10,
+        "price": 22.09,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Riley Johnson",
+        "popularity": 3,
+        "condition": 9,
+        "price": 19.18,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Morgan Brown",
+        "popularity": 2,
+        "condition": 3,
+        "price": 14.12,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Peyton Garcia",
+        "popularity": 4,
+        "condition": 7,
+        "price": 20.54,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Casey Brown",
+        "popularity": 3,
+        "condition": 8,
+        "price": 11.62,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Peyton Smith",
+        "popularity": 3,
+        "condition": 7,
+        "price": 4.46,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Casey Garcia",
+        "popularity": 1,
+        "condition": 3,
+        "price": 24.42,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Avery Garcia",
+        "popularity": 5,
+        "condition": 2,
+        "price": 27.66,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Peyton Garcia",
+        "popularity": 3,
+        "condition": 4,
+        "price": 15.83,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Alex Martinez",
+        "popularity": 3,
+        "condition": 6,
+        "price": 26.42,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Morgan Williams",
+        "popularity": 2,
+        "condition": 1,
+        "price": 13.01,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Quinn Williams",
+        "popularity": 2,
+        "condition": 7,
+        "price": 16.41,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Morgan Brown",
+        "popularity": 4,
+        "condition": 5,
+        "price": 7.47,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Alex Martinez",
+        "popularity": 1,
+        "condition": 7,
+        "price": 10.17,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Peyton Garcia",
+        "popularity": 5,
+        "condition": 9,
+        "price": 27.3,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Taylor Johnson",
+        "popularity": 5,
+        "condition": 1,
+        "price": 15.18,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jamie Martinez",
+        "popularity": 2,
+        "condition": 7,
+        "price": 24.9,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Alex Johnson",
+        "popularity": 5,
+        "condition": 9,
+        "price": 28.95,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Jordan Garcia",
+        "popularity": 2,
+        "condition": 3,
+        "price": 16.51,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Jamie Smith",
+        "popularity": 1,
+        "condition": 3,
+        "price": 8.62,
+        "genre": "Jazz"
+    },
+    {
+        "customer_name": "Morgan Jones",
+        "popularity": 2,
+        "condition": 1,
+        "price": 10.16,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Casey Miller",
+        "popularity": 2,
+        "condition": 9,
+        "price": 26.5,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Quinn Martinez",
+        "popularity": 5,
+        "condition": 1,
+        "price": 23.32,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Peyton Garcia",
+        "popularity": 3,
+        "condition": 7,
+        "price": 20.45,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Casey Rodriguez",
+        "popularity": 3,
+        "condition": 8,
+        "price": 10.5,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Avery Garcia",
+        "popularity": 1,
+        "condition": 8,
+        "price": 6.96,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Quinn Johnson",
+        "popularity": 5,
+        "condition": 2,
+        "price": 15.9,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jamie Davis",
+        "popularity": 3,
+        "condition": 8,
+        "price": 13.4,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jamie Martinez",
+        "popularity": 3,
+        "condition": 6,
+        "price": 10.84,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Quinn Johnson",
+        "popularity": 5,
+        "condition": 6,
+        "price": 9.94,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Casey Smith",
+        "popularity": 2,
+        "condition": 3,
+        "price": 12.55,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Jamie Garcia",
+        "popularity": 1,
+        "condition": 2,
+        "price": 22.78,
+        "genre": "Country"
+    },
+    {
+        "customer_name": "Alex Johnson",
+        "popularity": 2,
+        "condition": 4,
+        "price": 12.93,
+        "genre": "R&B"
+    },
+    {
+        "customer_name": "Quinn Garcia",
+        "popularity": 4,
+        "condition": 7,
+        "price": 22.26,
+        "genre": "Classical"
+    },
+    {
+        "customer_name": "Quinn Brown",
+        "popularity": 1,
+        "condition": 4,
+        "price": 26.2,
+        "genre": "Hip Hop"
+    },
+    {
+        "customer_name": "Quinn Miller",
+        "popularity": 2,
+        "condition": 10,
+        "price": 27.11,
+        "genre": "Jazz"
+    }
+]
