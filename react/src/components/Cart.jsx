@@ -1,32 +1,25 @@
 // Cart.js
 import React from "react";
 import { useEffect, useState } from "react";
+import { useCart } from "./hooks/CartContext";
 
-const Cart = ({ removeFromCart }) => {
-  const [cartItems, setCartItems] = useState([]);
-  const total = cartItems.reduce((sum, item) => sum + item.price, 0);
+const Cart = () => {
+  // const [cartItems, setCartItems] = useState([]);
+  const cartCont = useCart();
+  const cart = cartCont.cart;
+  const updateCart = cartCont.updateCart;
+  const total = cart.reduce((sum, item) => sum + item.price, 0);
 
-  //Added//
-  useEffect(() => {
-    const fetchCartData = async () => {
-      try {
-        const response = await fetch(`http://localhost:3000/records`);
-        if (!response.ok) {
-          throw new Error("Record data could not be fetched!");
-        }
-        const json_response = await response.json();
-        setCartItems(json_response);
-      } catch (error) {
-        console.error("Error fetching record:", error);
-      }
-    };
-  });
+  const removeFromCart = (index) => {
+    const newCartItems = cart.filter((_, i) => i !== index);
+    updateCart(newCartItems);
+  };
 
   return (
     <div>
       <h2>Cart</h2>
       <ul>
-        {cartItems.map((item, index) => (
+        {cart.map((item, index) => (
           <li key={index}>
             {item.record_name} - ${item.price}
             <button onClick={() => removeFromCart(index)}>Remove</button>

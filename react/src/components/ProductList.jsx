@@ -3,13 +3,19 @@ import React from "react";
 
 const ProductList = ({ products, addToCart }) => {
   return (
-    <div>
+    <div style={{ margin: "20px", alignSelf: "start" }}>
       <h2>Products</h2>
       <ul>
         {products.map((product) => (
           <li key={product.id}>
-            {product.name} - ${product.price}
-            <button onClick={() => addToCart(product)}>Add to Cart</button>
+            {product.record_name} - ${product.price}
+            <button
+              className="btn btn-primary"
+              onClick={() => addToCart(product)}
+              style={{ margin: "20px" }}
+            >
+              Add to Cart
+            </button>
           </li>
         ))}
       </ul>
