@@ -33,13 +33,13 @@ def generate_customer_data(num_data_points=1000):
         genre = random.choice(genres)
 
         data_point = {
-            "genre": genre,
             "record_name": record_name,
+            "genre": genre,
             "popularity": popularity,
             "condition": condition,
             "price": price
         }
-        data.append(data_point)
+        data.append(data_point)  # Append the data point to the appropriate genre list
     return data
 
 # Generate the data
