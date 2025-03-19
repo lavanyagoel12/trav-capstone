@@ -23,7 +23,7 @@ def generate_record_name():
     return f"{random.choice(first_word)} {random.choice(last_word)}"
 
 def generate_customer_data(num_data_points=1000):
-    data = {genre: [] for genre in genres}  # Initialize a dictionary with genres as keys
+    data = []
     for _ in range(num_data_points):
         customer_name = generate_random_name()
         record_name = generate_record_name()
@@ -34,11 +34,12 @@ def generate_customer_data(num_data_points=1000):
 
         data_point = {
             "record_name": record_name,
+            "genre": genre,
             "popularity": popularity,
             "condition": condition,
             "price": price
         }
-        data[genre].append(data_point)  # Append the data point to the appropriate genre list
+        data.append(data_point)  # Append the data point to the appropriate genre list
     return data
 
 # Generate the data
