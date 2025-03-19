@@ -1,11 +1,13 @@
 // src/App.js
 import React from "react";
-import CheckoutPage from "./components/CheckoutPage";
+// import CheckoutPage from "./components/CheckoutPage";
+import Home from "./components/Home";
 
 function App() {
   return (
     <div>
-      <CheckoutPage />
+      <Home />
+      {/* <CheckoutPage /> */}
     </div>
   );
 }
