@@ -19,6 +19,8 @@ import ProductList from "./ProductList";
 import Cart from "./Cart";
 import Checkout from "./Checkout";
 import { useNavigate } from "react-router-dom";
+import seedrandom from "seedrandom";
+import { ToastContainer, toast } from "react-toastify";
 
 const HomePage = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -63,7 +65,7 @@ const HomePage = () => {
         const json_response = await response.json();
 
         for (let i = json_response.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
+          const j = Math.floor(seedrandom(Math.random(42, 34, 26)) * (i + 1));
           [json_response[i], json_response[j]] = [
             json_response[j],
             json_response[i],
@@ -81,13 +83,16 @@ const HomePage = () => {
     navigate("/genre/" + genre);
   };
 
-  const handleSearchChange = (event) => {
-    setSearchQuery(event.target.value);
-    setFilteredRecords(
-      records.filter((product) =>
-        product.record_name.toLowerCase().includes(searchQuery.toLowerCase())
-      )
-    );
+  const handleSearchChange = () => {
+    if (searchQuery != "") {
+      toast.info("search submitted, please wait while your results load");
+      setFilteredRecords(
+        records.filter((product) =>
+          product.record_name.toLowerCase().includes(searchQuery.toLowerCase())
+        )
+      );
+    } else {
+    }
   };
 
   return (
@@ -99,11 +104,13 @@ const HomePage = () => {
         // justifyContent="center"
         minHeight="100vh"
       >
+        <ToastContainer />
         <TextField
           label="Search Products"
           variant="outlined"
           value={searchQuery}
-          onChange={handleSearchChange}
+          onChange={(event) => setSearchQuery(event.target.value)}
+          onBlur={handleSearchChange}
           style={{ margin: "20px", width: "90%", alignSelf: "start" }}
         />
         {searchQuery ? (

@@ -65,7 +65,9 @@ app.get("/featured", async (req, res) => {
     const client = await MongoClient.connect(url);
     const db = client.db(dbName);
     const collection = db.collection("record_data");
-    const featuredArray = await collection.find({ popularity: 5 }).toArray();
+    const featuredArray = await collection
+      .find({ popularity: { $gt: 4 } })
+      .toArray();
     console.log(featuredArray);
     res.json(featuredArray);
   } catch (e) {
