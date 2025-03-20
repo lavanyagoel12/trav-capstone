@@ -13,23 +13,28 @@ import {
   Button,
   Drawer,
 } from "@mui/material";
+import Grid from "@mui/material/Grid2";
 import { useCart } from "./hooks/CartContext";
 import ProductList from "./ProductList";
 import Cart from "./Cart";
 import Checkout from "./Checkout";
+import { useNavigate } from "react-router-dom";
 
 const HomePage = () => {
   const [searchQuery, setSearchQuery] = useState("");
+  const genresArray = ["Jazz", "Hip Hop", "Country", "Classical", "R&B"];
   const cartCont = useCart();
   const cart = cartCont.cart;
   const updateCart = cartCont.updateCart;
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [records, setRecords] = useState([]);
   const [filteredRecords, setFilteredRecords] = useState([]);
+  const [featuredRecords, setFeaturedRecords] = useState([]);
   const toggleCart = () => {
     setIsCartOpen(!isCartOpen);
   };
   const total = 0;
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchRecordData = async () => {
@@ -48,11 +53,33 @@ const HomePage = () => {
     fetchRecordData();
   }, []);
 
-  const addToCart = (product) => {
-    updateCart([...cart, product]);
+  useEffect(() => {
+    const fetchFeaturedRecords = async () => {
+      try {
+        const response = await fetch(`http://localhost:3000/featured`);
+        if (!response.ok) {
+          throw new Error("Record data could not be fetched!");
+        }
+        const json_response = await response.json();
+
+        for (let i = json_response.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [json_response[i], json_response[j]] = [
+            json_response[j],
+            json_response[i],
+          ];
+        }
+        setFeaturedRecords(json_response.slice(0, 3));
+      } catch (error) {
+        console.error("Error fetching record:", error);
+      }
+    };
+    fetchFeaturedRecords();
+  }, []);
+
+  const handleGenreClick = (genre) => {
+    navigate("/genre/" + genre);
   };
-
-
 
   const handleSearchChange = (event) => {
     setSearchQuery(event.target.value);
@@ -68,8 +95,8 @@ const HomePage = () => {
       <Box
         display="flex"
         flexDirection="column"
-        alignItems="center"
-        justifyContent="center"
+        // alignItems="center"
+        // justifyContent="center"
         minHeight="100vh"
       >
         <TextField
@@ -77,9 +104,35 @@ const HomePage = () => {
           variant="outlined"
           value={searchQuery}
           onChange={handleSearchChange}
-          style={{ margin: "20px", width: "100%" }}
+          style={{ margin: "20px", width: "90%", alignSelf: "start" }}
         />
-        <ProductList products={filteredRecords} addToCart={addToCart} />
+        {searchQuery ? (
+          <ProductList heading="Search Results" products={filteredRecords} />
+        ) : (
+          // put featured and categories here
+          <>
+            <ProductList heading="Featured" products={featuredRecords} />
+            <Grid
+              container
+              spacing={{ xs: 2, md: 3 }}
+              columns={{ xs: 4, sm: 8, md: 12 }}
+              style={{ alignSelf: "center" }}
+            >
+              {genresArray.map((genre) => (
+                <Grid key={genre} size={{ xs: 4, sm: 4, md: 6 }}>
+                  {/* <Item>{index + 1}</Item> */}
+                  <div
+                    className="card bg-success"
+                    style={{ alignItems: "center", width: "100%" }}
+                    onClick={(e) => handleGenreClick(e.target.innerText)}
+                  >
+                    {genre}
+                  </div>
+                </Grid>
+              ))}
+            </Grid>
+          </>
+        )}
       </Box>
     </>
     // <div>

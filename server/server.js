@@ -21,7 +21,7 @@ app.get("/records", async (req, res) => {
   try {
     const client = await MongoClient.connect(url);
     const db = client.db(dbName);
-    const collection = db.collection("genre_data");
+    const collection = db.collection("record_data");
     const recordsArray = await collection.find({}).toArray();
     console.log(recordsArray);
     res.json(recordsArray);
@@ -35,8 +35,10 @@ app.get("/records/:id", async (req, res) => {
     const { id } = req.params;
     const client = await MongoClient.connect(url);
     const db = client.db(dbName);
-    const collection = db.collection("genre_data");
-    const recordsArray = await collection.find({ _id: id }).toArray();
+    const collection = db.collection("record_data");
+    const recordsArray = await collection
+      .find({ _id: new ObjectId(id) })
+      .toArray();
     console.log(recordsArray);
     res.json(recordsArray);
   } catch (e) {
@@ -49,10 +51,23 @@ app.get("/genres/:genre", async (req, res) => {
     const { genre } = req.params;
     const client = await MongoClient.connect(url);
     const db = client.db(dbName);
-    const collection = db.collection("genre_data");
+    const collection = db.collection("record_data");
     const genresArray = await collection.find({ genre: genre }).toArray();
     console.log(genresArray);
     res.json(genresArray);
+  } catch (e) {
+    console.log(e);
+  }
+});
+
+app.get("/featured", async (req, res) => {
+  try {
+    const client = await MongoClient.connect(url);
+    const db = client.db(dbName);
+    const collection = db.collection("record_data");
+    const featuredArray = await collection.find({ popularity: 5 }).toArray();
+    console.log(featuredArray);
+    res.json(featuredArray);
   } catch (e) {
     console.log(e);
   }
