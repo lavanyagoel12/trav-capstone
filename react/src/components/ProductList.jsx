@@ -2,6 +2,7 @@
 import React from "react";
 import { useCart } from "./hooks/CartContext";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 // const ProductList = ({ heading, products }) => {
 //   const cartCont = useCart();
@@ -48,6 +49,7 @@ import { useNavigate } from "react-router-dom";
 
 // import React from "react";
 import { Container, Row, Col, Input, Button, Modal } from "reactstrap";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 // import Checkbox from "react-custom-checkbox";
 // import InputRange from "react-input-range";
 // import Link from "next/link";
@@ -75,6 +77,9 @@ const ProductList = ({ heading, products }) => {
   const addToCart = (product) => {
     updateCart([...cart, product]);
   };
+  const toastPost = () => {
+    toast.info("record successfully added to your cart");
+  };
   const handleDetailsClick = (recordId) => {
     console.log("handleDetails clicked");
     navigate("/details/" + recordId);
@@ -83,40 +88,7 @@ const ProductList = ({ heading, products }) => {
   return (
     <>
       <head>
-        <title>Shop</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-
-        <meta
-          name="description"
-          content="Beautifully designed web application template built with React and Bootstrap to create modern apps and speed up development"
-        />
-        <meta name="keywords" content="flatlogic, react templates" />
-        <meta name="author" content="Flatlogic LLC." />
-        <meta charSet="utf-8" />
-
-        <meta
-          property="og:title"
-          content="Flatlogic - React, Vue, Angular and Bootstrap Templates and Admin Dashboard Themes"
-        />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:url"
-          content="https://flatlogic-ecommerce.herokuapp.com/"
-        />
-        <meta
-          property="og:image"
-          content="https://flatlogic-ecommerce-backend.herokuapp.com/images/blogs/content_image_six.jpg"
-        />
-        <meta
-          property="og:description"
-          content="Beautifully designed web application template built with React and Bootstrap to create modern apps and speed up development"
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-
-        <meta property="fb:app_id" content="712557339116053" />
-
-        <meta property="og:site_name" content="Flatlogic" />
-        <meta name="twitter:site" content="@flatlogic" />
+        <title>Record Store</title>
       </head>
       <Container className={"mb-5"} style={{ marginTop: 32 }}>
         <Row>
@@ -201,33 +173,12 @@ const ProductList = ({ heading, products }) => {
                         className={s.productImage}
                       />
                     </a>
-                    <div
-                      className={`d-flex flex-column justify-content-center ${s.product__actions}`}
-                      style={{
-                        position: "absolute",
-                        height: "100%",
-                        top: 0,
-                        right: 15,
-                      }}
-                    >
-                      <Button
-                        className={"p-0 bg-transparent border-0"}
-                        onClick={() => {
-                          addToCart(item._id);
-                          toast.info(
-                            "products successfully added to your cart"
-                          );
-                        }}
-                      >
-                        <div className={`mb-4 ${s.product__actions__cart}`} />
-                      </Button>
-                    </div>
                   </div>
-                  <div
-                    className={s.productInfo}
-                    onClick={(e) => handleDetailsClick(item._id)}
-                  >
-                    <div>
+                  <div className={s.productInfo} style={{ display: "flex" }}>
+                    <div
+                      onClick={(e) => handleDetailsClick(item._id)}
+                      style={{ flex: "1" }}
+                    >
                       <a>
                         <h6
                           className={"fw-bold font-size-base mt-1"}
@@ -237,6 +188,26 @@ const ProductList = ({ heading, products }) => {
                         </h6>
                       </a>
                       <h6 style={{ fontSize: 16 }}>${item.price.toFixed(2)}</h6>
+                    </div>
+                    <div
+                      className={`${s.buttonsWrapper} d-flex`}
+                      style={{ flex: "0 0 auto", alignItems: "center" }}
+                    >
+                      <Button
+                        outline
+                        color={"primary"}
+                        className={"flex-fill mr-4 text-uppercase fw-bold"}
+                        style={{
+                          width: "50%",
+                          height: "80%",
+                        }}
+                        onClick={() => {
+                          toastPost();
+                          addToCart(item);
+                        }}
+                      >
+                        <ShoppingCartIcon />
+                      </Button>
                     </div>
                   </div>
                 </Col>

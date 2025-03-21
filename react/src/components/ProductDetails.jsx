@@ -147,10 +147,11 @@ const ProductDetails = () => {
       }
     };
     fetchRecordData();
-  }, []);
+  }, [id]);
 
   const addToCart = () => {
     console.log("adding to cart:" + record[0]);
+    toast.info("record successfully added to your cart");
     updateCart([...cart, record[0]]);
   };
 
@@ -200,7 +201,11 @@ const ProductDetails = () => {
               style={{ height: 320 }}
             >
               <h6 className={`${s.detailCategory}`}>
-                Genre: {record[0]?.artist_genre}
+                Genre:{" "}
+                {record[0]?.artist_genre == "0"
+                  ? "Other"
+                  : record[0]?.artist_genre.charAt(0).toUpperCase() +
+                    record[0]?.artist_genre.slice(1)}
               </h6>
               <h4 className={"fw-bold"}>{record[0]?.record_name}</h4>
               <div className={"d-flex"}>
@@ -229,7 +234,6 @@ const ProductDetails = () => {
                 className={"flex-fill mr-4 text-uppercase fw-bold"}
                 style={{ width: "50%" }}
                 onClick={() => {
-                  toast.info("products successfully added to your cart");
                   addToCart();
                 }}
               >
