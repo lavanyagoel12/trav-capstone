@@ -76,6 +76,23 @@ app.get("/genres/:genre", async (req, res) => {
     const { genre } = req.params;
     const client = await MongoClient.connect(url);
     const db = client.db(dbName);
+    const collection = db.collection("record_data");
+    const genresArray = await collection
+      .find({ artist_genre: genre })
+      .toArray();
+    console.log(genresArray);
+    res.json(genresArray);
+  } catch (e) {
+    console.log(e);
+  }
+});
+
+app.get("/genres", async (req, res) => {
+  try {
+    const client = await MongoClient.connect(url);
+    const db = client.db(dbName);
+    const collection = db.collection("record_data");
+    const genresArray = await collection.distinct("artist_genre");
     const collection = db.collection(collectionName);
     const genresArray = await collection.find({ genre: genre }).toArray();
     console.log(genresArray);

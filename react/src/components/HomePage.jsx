@@ -13,6 +13,8 @@ import {
   Button,
   Drawer,
 } from "@mui/material";
+import { Container as ContainerR, Row, Col } from "reactstrap";
+import s from "./Categories.module.scss";
 import Grid from "@mui/material/Grid2";
 import { useCart } from "./hooks/CartContext";
 import ProductList from "./ProductList";
@@ -24,7 +26,8 @@ import { ToastContainer, toast } from "react-toastify";
 
 const HomePage = () => {
   const [searchQuery, setSearchQuery] = useState("");
-  const genresArray = ["Jazz", "Hip Hop", "Country", "Classical", "R&B"];
+  const [searching, setSearching] = useState(false);
+  const [genresArray, setGenresArray] = useState([]);
   const cartCont = useCart();
   const cart = cartCont.cart;
   const updateCart = cartCont.updateCart;
@@ -37,6 +40,22 @@ const HomePage = () => {
   };
   const total = 0;
   const navigate = useNavigate();
+
+  useEffect(() => {
+    const fetchGenreData = async () => {
+      try {
+        const response = await fetch(`http://localhost:3000/genres`);
+        if (!response.ok) {
+          throw new Error("Genre data could not be fetched!");
+        }
+        const json_response = await response.json();
+        setGenresArray(json_response);
+      } catch (error) {
+        console.error("Error fetching genres:", error);
+      }
+    };
+    fetchGenreData();
+  }, []);
 
   useEffect(() => {
     const fetchRecordData = async () => {
@@ -84,8 +103,9 @@ const HomePage = () => {
   };
 
   const handleSearchChange = () => {
+    setSearching(false);
     if (searchQuery != "") {
-      toast.info("search submitted, please wait while your results load");
+      // toast.info("search submitted, please wait while your results load");
       setFilteredRecords(
         records.filter((product) =>
           product.record_name.toLowerCase().includes(searchQuery.toLowerCase())
@@ -111,33 +131,56 @@ const HomePage = () => {
           value={searchQuery}
           onChange={(event) => setSearchQuery(event.target.value)}
           onBlur={handleSearchChange}
+          onFocus={(e) => setSearching(true)}
           style={{ margin: "20px", width: "90%", alignSelf: "start" }}
         />
         {searchQuery ? (
-          <ProductList heading="Search Results" products={filteredRecords} />
+          <>
+            {filteredRecords.length > 0 && !searching ? (
+              <ProductList
+                heading="Search Results"
+                products={filteredRecords}
+              />
+            ) : (
+              <>
+                {searching ? (
+                  <ProductList
+                    heading="Click outside the search box when you are finished typing."
+                    products={[]}
+                  />
+                ) : (
+                  <ProductList
+                    heading="Sorry, no records match your search."
+                    products={filteredRecords}
+                  />
+                )}
+              </>
+            )}
+          </>
         ) : (
           // put featured and categories here
           <>
             <ProductList heading="Featured" products={featuredRecords} />
-            <Grid
-              container
-              spacing={{ xs: 2, md: 3 }}
-              columns={{ xs: 4, sm: 8, md: 12 }}
-              style={{ alignSelf: "center" }}
-            >
-              {genresArray.map((genre) => (
-                <Grid key={genre} size={{ xs: 4, sm: 4, md: 6 }}>
-                  {/* <Item>{index + 1}</Item> */}
-                  <div
-                    className="card bg-success"
-                    style={{ alignItems: "center", width: "100%" }}
-                    onClick={(e) => handleGenreClick(e.target.innerText)}
-                  >
-                    {genre}
-                  </div>
-                </Grid>
-              ))}
-            </Grid>
+            <ContainerR className={s.bannersContainer}>
+              <Row>
+                {genresArray?.map((genre) => (
+                  <Col md={6} xs={12} onClick={(e) => handleGenreClick(genre)}>
+                    <div className={`${s.livingRoomBanner}`}>
+                      <div className={s.textContent}>
+                        <div>
+                          <strong>
+                            {genre == "0"
+                              ? "Other"
+                              : genre.charAt(0).toUpperCase() + genre.slice(1)}
+                          </strong>
+                          <b>View Records</b>
+                        </div>
+                      </div>
+                    </div>
+                  </Col>
+                ))}
+              </Row>
+            </ContainerR>
           </>
         )}
       </Box>

@@ -67,8 +67,7 @@ const App = () => {
         <Route path="/details/:id" element={<ProductDetails />} />
       </Routes>
       <Drawer anchor="right" open={isCartOpen} onClose={toggleCart}>
-        <Cart />
-        <Checkout total={total} />
+        <Cart setIsCartOpen={setIsCartOpen} />
       </Drawer>
     </div>
   );

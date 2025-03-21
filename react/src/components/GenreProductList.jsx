@@ -26,7 +26,14 @@ const GenreProductList = () => {
   }, []);
   return (
     <div>
-      <ProductList heading={genre + " Records"} products={records} />
+      <ProductList
+        heading={
+          genre == "0"
+            ? "Other Records"
+            : genre.charAt(0).toUpperCase() + genre.slice(1) + " Records"
+        }
+        products={records}
+      />
       {/* <button onClick={handleCheckout}>Proceed to Checkout</button> */}
     </div>
   );
