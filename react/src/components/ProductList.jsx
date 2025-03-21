@@ -78,7 +78,7 @@ const ProductList = ({ heading, products }) => {
     updateCart([...cart, product]);
   };
   const toastPost = () => {
-    toast.info("record successfully added to your cart");
+    //toast.info("record successfully added to your cart");
   };
   const handleDetailsClick = (recordId) => {
     console.log("handleDetails clicked");

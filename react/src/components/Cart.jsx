@@ -1,4 +1,6 @@
-import React, { useEffect, useState } from "react";
+// Cart.js
+import React from "react";
+import { useEffect, useState } from "react";
 import { useCart } from "./hooks/CartContext";
 import { Col, Row, Button, Table } from "reactstrap";
 import s from "./Cart.module.scss";
@@ -8,6 +10,7 @@ import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 
 const Cart = (props) => {
+  // const [cartItems, setCartItems] = useState([]);
   const cartCont = useCart();
   const cart = cartCont.cart;
   const updateCart = cartCont.updateCart;
@@ -41,43 +44,18 @@ const Cart = (props) => {
   useEffect(() => {
     const fetchRecommendedRecords = async () => {
       try {
-        // Extract features from cart items
-        const cartFeatures = cart.map((item) => item.price); // Replace 'price' with actual feature extraction logic
-
-        // Make a POST request to the Flask server with cart features
-        const response = await fetch("http://localhost:5000/predict", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ features: cartFeatures }),
-          mode: 'no-cors'
-        });
-
+        const response = await fetch(`http://localhost:3000/featured`);
         if (!response.ok) {
-          throw new Error("Prediction request failed!");
-        }
-
-        const recommendations = await response.json();
-
-        // Fetch recommended records based on the model's output
-        const recordsResponse = await fetch(
-          `http://localhost:3000/records?ids=${recommendations.join(",")}`
-        );
-
-        if (!recordsResponse.ok) {
           throw new Error("Record data could not be fetched!");
         }
-
-        const json_response = await recordsResponse.json();
+        const json_response = await response.json();
         setRecItems(json_response.slice(0, 3));
       } catch (error) {
         console.error("Error fetching record:", error);
       }
     };
-
     fetchRecommendedRecords();
-  }, [cart]);
+  }, []);
 
   return (
     <div>
