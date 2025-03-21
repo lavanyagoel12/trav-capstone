@@ -105,7 +105,7 @@ const HomePage = () => {
   const handleSearchChange = () => {
     setSearching(false);
     if (searchQuery != "") {
-      toast.info("search submitted, please wait while your results load");
+      // toast.info("search submitted, please wait while your results load");
       setFilteredRecords(
         records.filter((product) =>
           product.record_name.toLowerCase().includes(searchQuery.toLowerCase())
@@ -146,7 +146,7 @@ const HomePage = () => {
                 {searching ? (
                   <ProductList
                     heading="Click outside the search box when you are finished typing."
-                    products={filteredRecords}
+                    products={[]}
                   />
                 ) : (
                   <ProductList
