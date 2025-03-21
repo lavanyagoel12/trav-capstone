@@ -6,7 +6,6 @@ const Cart = () => {
   const cartCont = useCart();
   const cart = cartCont.cart;
   const updateCart = cartCont.updateCart;
-  //const total = cart.reduce((sum, item) => sum + item.price, 0);
   const total = cart.reduce((sum, item) => {
     if (item && item.price !== undefined) {
       return sum + item.price;
@@ -50,6 +49,17 @@ const Cart = () => {
         ))}
       </ul>
       <h3>Total: ${total.toFixed(2)}</h3>
+      {predictions.length > 0 && (
+        <div>
+          <h3>Predicted Items:</h3>
+          <ul>
+            {predictions.map((prediction, index) => (
+              <li key={index}>{prediction}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+      <button>Add to cart</button>
     </div>
   );
 };
