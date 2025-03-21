@@ -41,8 +41,9 @@ app.post("/run-model", async (req, res) => {
 });
 
 app.get("/records", async (req, res) => {
+  let client;
   try {
-    const client = await MongoClient.connect(url);
+    client = await MongoClient.connect(url);
     const db = client.db(dbName);
     const collection = db.collection(collectionName);
     const recordsArray = await collection.find({}).toArray();
@@ -51,13 +52,16 @@ app.get("/records", async (req, res) => {
   } catch (e) {
     console.log(e);
     res.status(500).json({ error: "Failed to fetch records" });
+  } finally {
+    client?.close();
   }
 });
 
 app.get("/records/:id", async (req, res) => {
+  let client;
   try {
     const { id } = req.params;
-    const client = await MongoClient.connect(url);
+    client = await MongoClient.connect(url);
     const db = client.db(dbName);
     const collection = db.collection(collectionName);
     const recordsArray = await collection
@@ -68,13 +72,16 @@ app.get("/records/:id", async (req, res) => {
   } catch (e) {
     console.log(e);
     res.status(500).json({ error: "Failed to fetch record by ID" });
+  } finally {
+    client?.close();
   }
 });
 
 app.get("/genres/:genre", async (req, res) => {
+  let client;
   try {
     const { genre } = req.params;
-    const client = await MongoClient.connect(url);
+    client = await MongoClient.connect(url);
     const db = client.db(dbName);
     const collection = db.collection("record_data");
     const genresArray = await collection
@@ -84,28 +91,33 @@ app.get("/genres/:genre", async (req, res) => {
     res.json(genresArray);
   } catch (e) {
     console.log(e);
+    res.status(500).json({ error: "Failed to fetch genres by genre" });
+  } finally {
+    client?.close();
   }
 });
 
 app.get("/genres", async (req, res) => {
+  let client;
   try {
-    const client = await MongoClient.connect(url);
+    client = await MongoClient.connect(url);
     const db = client.db(dbName);
     const collection = db.collection("record_data");
     const genresArray = await collection.distinct("artist_genre");
-    const collection = db.collection(collectionName);
-    const genresArray = await collection.find({ genre: genre }).toArray();
     console.log(genresArray);
     res.json(genresArray);
   } catch (e) {
     console.log(e);
     res.status(500).json({ error: "Failed to fetch genres" });
+  } finally {
+    client?.close();
   }
 });
 
 app.get("/featured", async (req, res) => {
+  let client;
   try {
-    const client = await MongoClient.connect(url);
+    client = await MongoClient.connect(url);
     const db = client.db(dbName);
     const collection = db.collection(collectionName);
     const featuredArray = await collection
@@ -116,5 +128,7 @@ app.get("/featured", async (req, res) => {
   } catch (e) {
     console.log(e);
     res.status(500).json({ error: "Failed to fetch featured records" });
+  } finally {
+    client?.close();
   }
 });
