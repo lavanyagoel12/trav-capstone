@@ -169,12 +169,6 @@ const ProductDetails = () => {
 
   return (
     <>
-      <head>
-        <title>{record[0]?.record_name}</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta charSet="utf-8" />
-        <meta name="twitter:card" content="summary_large_image" />
-      </head>
       <ToastContainer />
       <Container>
         <Row className={"mb-5"} style={{ marginTop: 32 }}>

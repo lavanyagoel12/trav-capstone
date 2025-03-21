@@ -26,10 +26,16 @@ const Cart = (props) => {
     setRecItems(newRecItems);
   };
 
-  const handleDetailsClick = async (recordId) => {
+  const handleDetailsClick = (recordId) => {
     console.log("handleDetails clicked: " + recordId);
-    await props.setIsCartOpen(false);
+    props.setIsCartOpen(false);
     navigate("/details/" + recordId);
+  };
+
+  const handleCheckout = () => {
+    props.setTotal(total);
+    props.setIsCartOpen(false);
+    navigate("/checkout");
   };
 
   useEffect(() => {
@@ -147,7 +153,10 @@ const Cart = (props) => {
               <>
                 {recItems.map((item, index) => (
                   <tr className={"mt-2"} key={index}>
-                    <td className={"px-0 pt-4"}>
+                    <td
+                      className={"px-0 pt-4"}
+                      onClick={(e) => handleDetailsClick(item._id)}
+                    >
                       <div className={"d-flex align-items-center"}>
                         <img
                           src={item.album_cover}
@@ -160,7 +169,10 @@ const Cart = (props) => {
                         </div>
                       </div>
                     </td>
-                    <td className={"px-0 pt-4"}>
+                    <td
+                      className={"px-0 pt-4"}
+                      onClick={(e) => handleDetailsClick(item._id)}
+                    >
                       <h6 className={"fw-bold mb-0"}>
                         ${item.price.toFixed(2)}
                       </h6>
@@ -192,6 +204,7 @@ const Cart = (props) => {
           <Button
             color={"primary"}
             className={`${s.checkOutBtn} text-uppercase fw-bold`}
+            onClick={(e) => handleCheckout()}
           >
             Check out
           </Button>
