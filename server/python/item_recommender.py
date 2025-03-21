@@ -1,33 +1,33 @@
-import pickle
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+import pickle
 
 app = Flask(__name__)
-CORS(app)
 
-# Load the KNN model
-try:
-    with open('knn_model_spotify.pkl', 'rb') as file:
-        knn_model = pickle.load(file)
-except FileNotFoundError:
-    raise Exception("Model file not found. Please ensure 'knn_model_spotify.pkl' exists.")
+# Enable CORS for all routes
+CORS(app)
+columns_to_keep = [
+    "danceability", "energy", "key", "mode", "loudness", "speechiness",
+    "acousticness", "instrumentalness", "liveness", "valence", "tempo",
+    "duration", "price", "condition", "popularity"
+]
+# Load the KNN model from the pickle file
+with open("C:/Capstone/trav-capstone/server/python/knn_model_spotify.pkl", "rb") as file:
+    model = pickle.load(file)
 
 @app.route('/run-model', methods=['POST'])
-def run_model():
-    # Get cart items from the request
-    cart_items = request.json.get('cart_items', [])
-    
-    if not cart_items:
-        return jsonify(error="No cart items provided"), 400
-    
+def predict():
     try:
-        # Process cart items through the model
-        # Assuming the model expects a certain format, adjust as needed
-        predictions = knn_model.predict(cart_items)
+        # Get features from the request
+        cart_features = request.json.get(columns_to_keep, [])
+        
+        # Perform prediction using the KNN model
+        recommendations = model.predict(cart_features)
+        
+        # Return the recommendations as a JSON response
+        return jsonify(recommendations.tolist())
     except Exception as e:
-        return jsonify(error=str(e)), 500
-    
-    return jsonify(predictions=predictions.tolist())
+        return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port=5000)

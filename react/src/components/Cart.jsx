@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 import { useCart } from "./hooks/CartContext";
 import { Col, Row, Button, Table } from "reactstrap";
 import s from "./Cart.module.scss";
@@ -9,36 +8,12 @@ import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 
 const Cart = (props) => {
-  // const [cartItems, setCartItems] = useState([]);
-const Cart = () => {
   const cartCont = useCart();
   const cart = cartCont.cart;
   const updateCart = cartCont.updateCart;
   const [recItems, setRecItems] = useState([]);
   const total = cart.reduce((sum, item) => sum + item.price, 0);
   const navigate = useNavigate();
-  const total = cart.reduce((sum, item) => {
-    if (item && item.price !== undefined) {
-      return sum + item.price;
-    }
-    return sum;
-  }, 0);
-
-  const [predictions, setPredictions] = useState([]);
-
-  useEffect(() => {
-    if (cart.length > 0) {
-      // Send cart items to the backend
-      axios
-        .post("http://localhost:5000/run-model", { cart_items: cart })
-        .then((response) => {
-          setPredictions(response.data.predictions);
-        })
-        .catch((error) => {
-          console.error("Error running model:", error);
-        });
-    }
-  }, [cart]);
 
   const removeFromCart = (index) => {
     const newCartItems = cart.filter((_, i) => i !== index);
@@ -60,18 +35,43 @@ const Cart = () => {
   useEffect(() => {
     const fetchRecommendedRecords = async () => {
       try {
-        const response = await fetch(`http://localhost:3000/featured`);
+        // Extract features from cart items
+        const cartFeatures = cart.map((item) => item.price); // Replace 'price' with actual feature extraction logic
+
+        // Make a POST request to the Flask server with cart features
+        const response = await fetch("http://localhost:5000/predict", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ features: cartFeatures }),
+          mode: 'no-cors'
+        });
+
         if (!response.ok) {
+          throw new Error("Prediction request failed!");
+        }
+
+        const recommendations = await response.json();
+
+        // Fetch recommended records based on the model's output
+        const recordsResponse = await fetch(
+          `http://localhost:3000/records?ids=${recommendations.join(",")}`
+        );
+
+        if (!recordsResponse.ok) {
           throw new Error("Record data could not be fetched!");
         }
-        const json_response = await response.json();
+
+        const json_response = await recordsResponse.json();
         setRecItems(json_response.slice(0, 3));
       } catch (error) {
         console.error("Error fetching record:", error);
       }
     };
+
     fetchRecommendedRecords();
-  }, []);
+  }, [cart]);
 
   return (
     <div>
@@ -90,7 +90,7 @@ const Cart = () => {
             ) : (
               <>
                 {cart.map((item, index) => (
-                  <tr className={"mt-2"}>
+                  <tr className={"mt-2"} key={index}>
                     <td
                       className={"px-0 pt-4"}
                       onClick={(e) => handleDetailsClick(item._id)}
@@ -146,7 +146,7 @@ const Cart = () => {
             ) : (
               <>
                 {recItems.map((item, index) => (
-                  <tr className={"mt-2"}>
+                  <tr className={"mt-2"} key={index}>
                     <td className={"px-0 pt-4"}>
                       <div className={"d-flex align-items-center"}>
                         <img
@@ -197,30 +197,6 @@ const Cart = () => {
           </Button>
         </section>
       </Col>
-      <h2>Cart</h2>
-      <ul>
-        {cart.map((item, index) => (
-          <li key={index}>
-            {item.record_name} - ${item.price}
-            <button onClick={() => removeFromCart(index)}>Remove</button>
-            {predictions[index] && (
-              <span> - Prediction: {predictions[index]}</span>
-            )}
-          </li>
-        ))}
-      </ul>
-      <h3>Total: ${total.toFixed(2)}</h3>
-      {predictions.length > 0 && (
-        <div>
-          <h3>Predicted Items:</h3>
-          <ul>
-            {predictions.map((prediction, index) => (
-              <li key={index}>{prediction}</li>
-            ))}
-          </ul>
-        </div>
-      )}
-      <button>Add to cart</button>
     </div>
   );
 };
