@@ -8,11 +8,9 @@ import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import { CartProvider } from "./components/hooks/CartContext.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <Router>
-      <CartProvider>
-        <App />
-      </CartProvider>
-    </Router>
-  </StrictMode>
+  <Router>
+    <CartProvider>
+      <App />
+    </CartProvider>
+  </Router>
 );

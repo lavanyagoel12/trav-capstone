@@ -17,6 +17,25 @@ app.listen(PORT, () => {
 });
 app.use(express.json());
 
+app.post("/order", async (req, res) => {
+  try {
+    const client = await MongoClient.connect(url);
+    const db = client.db(dbName);
+    const collection = db.collection("orders");
+    const order = req.body;
+    console.log("order: " + req.body);
+    const orders = await collection.insertOne(order);
+    console.log("Creating order: ", order);
+    res.status(200).send({ message: "Order created!" });
+    console.log("Order created successfully!");
+  } catch (err) {
+    console.error("Error:", err);
+    res
+      .status(500)
+      .send("Error adding order");
+  }
+});
+
 app.get("/records", async (req, res) => {
   try {
     const client = await MongoClient.connect(url);

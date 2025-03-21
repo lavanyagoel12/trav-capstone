@@ -15,6 +15,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import CheckoutPage from "./components/CheckoutPage";
 import HomePage from "./components/HomePage";
 import ProductList from "./components/ProductList";
+import ShoppingCartCheckoutIcon from "@mui/icons-material/ShoppingCartCheckout";
 import Cart from "./components/Cart";
 import Checkout from "./components/Checkout";
 import { CartProvider, useCart } from "./components/hooks/CartContext";
@@ -24,6 +25,7 @@ import ProductDetails from "./components/ProductDetails";
 const App = () => {
   const [cartItems, setCartItems] = useState([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
+  const [total, setTotal] = useState(0.0);
   const navigate = useNavigate();
 
   const products = [
@@ -32,14 +34,15 @@ const App = () => {
     { id: 3, name: "Product 3", price: 30 },
   ];
 
-  const total = cartItems.reduce((sum, item) => sum + item.price, 0);
-
   const toggleCart = () => {
     setIsCartOpen(!isCartOpen);
   };
 
   const handleHomeClick = () => {
     navigate("/");
+  };
+  const handleCheckoutClick = () => {
+    navigate("/checkout");
   };
   const cartCont = useCart();
   const cart = cartCont.cart;
@@ -59,15 +62,24 @@ const App = () => {
               <HomeIcon />
             </Badge>
           </IconButton>
+          <IconButton edge="end" color="inherit" onClick={handleCheckoutClick}>
+            <Badge badgeContent={0} color="secondary">
+              <ShoppingCartCheckoutIcon />
+            </Badge>
+          </IconButton>
         </Toolbar>
       </AppBar>
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route path="/genre/:genre" element={<GenreProductList />} />
         <Route path="/details/:id" element={<ProductDetails />} />
+        <Route
+          path="/checkout"
+          element={<Checkout setIsCartOpen={setIsCartOpen} />}
+        />
       </Routes>
       <Drawer anchor="right" open={isCartOpen} onClose={toggleCart}>
-        <Cart setIsCartOpen={setIsCartOpen} />
+        <Cart setIsCartOpen={setIsCartOpen} setTotal={setTotal} />
       </Drawer>
     </div>
   );

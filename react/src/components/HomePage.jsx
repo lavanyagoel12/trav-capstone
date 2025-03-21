@@ -41,6 +41,29 @@ const HomePage = () => {
   const total = 0;
   const navigate = useNavigate();
 
+  function shuffleWithSeed(json_response, seed) {
+    const length = json_response.length;
+
+    // Define a few shuffle patterns for arrays of the given length
+    const predefinedShuffles = [
+      Array.from({ length }, (_, i) => i), // Original order
+      Array.from({ length }, (_, i) => (i + 1) % length), // Rotate right
+      Array.from({ length }, (_, i) => (i + 2) % length), // Rotate twice
+    ];
+
+    const rng = seedrandom(seed); // Create a seeded random number generator
+    const shuffleIndex = Math.floor(rng() * predefinedShuffles.length); // Select a shuffle pattern
+
+    const shufflePattern = predefinedShuffles[shuffleIndex];
+
+    // Apply the selected shuffle pattern
+    const shuffledResponse = shufflePattern.map(
+      (index) => json_response[index]
+    );
+
+    return shuffledResponse;
+  }
+
   useEffect(() => {
     const fetchGenreData = async () => {
       try {
@@ -83,14 +106,22 @@ const HomePage = () => {
         }
         const json_response = await response.json();
 
-        for (let i = json_response.length - 1; i > 0; i--) {
-          const j = Math.floor(seedrandom(Math.random(42, 34, 26)) * (i + 1));
-          [json_response[i], json_response[j]] = [
-            json_response[j],
-            json_response[i],
-          ];
-        }
-        setFeaturedRecords(json_response.slice(0, 3));
+        const arr = [2, 42, 33];
+
+        // for (let i = json_response.length - 1; i > 0; i--) {
+        //   const j = Math.floor(Math.random() * (i + 1));
+        //   [json_response[i], json_response[j]] = [
+        //     json_response[j],
+        //     json_response[i],
+        //   ];
+        // }
+
+        setFeaturedRecords(
+          shuffleWithSeed(
+            json_response,
+            arr[Math.floor(Math.random() * arr.length)]
+          ).slice(0, 3)
+        );
       } catch (error) {
         console.error("Error fetching record:", error);
       }
@@ -163,8 +194,13 @@ const HomePage = () => {
             <ProductList heading="Featured" products={featuredRecords} />
             <ContainerR className={s.bannersContainer}>
               <Row>
-                {genresArray?.map((genre) => (
-                  <Col md={6} xs={12} onClick={(e) => handleGenreClick(genre)}>
+                {genresArray?.map((genre, index) => (
+                  <Col
+                    md={6}
+                    xs={12}
+                    onClick={(e) => handleGenreClick(genre)}
+                    key={index}
+                  >
                     <div className={`${s.livingRoomBanner}`}>
                       <div className={s.textContent}>
                         <div>

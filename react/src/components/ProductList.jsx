@@ -49,7 +49,7 @@ import { useState } from "react";
 
 // import React from "react";
 import { Container, Row, Col, Input, Button, Modal } from "reactstrap";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import AddIcon from "@mui/icons-material/Add";
 // import Checkbox from "react-custom-checkbox";
 // import InputRange from "react-input-range";
 // import Link from "next/link";
@@ -87,9 +87,6 @@ const ProductList = ({ heading, products }) => {
 
   return (
     <>
-      <head>
-        <title>Record Store</title>
-      </head>
       <Container className={"mb-5"} style={{ marginTop: 32 }}>
         <Row>
           <ToastContainer />
@@ -206,7 +203,7 @@ const ProductList = ({ heading, products }) => {
                           addToCart(item);
                         }}
                       >
-                        <ShoppingCartIcon />
+                        <AddIcon />
                       </Button>
                     </div>
                   </div>
